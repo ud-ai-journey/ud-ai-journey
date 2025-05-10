@@ -80,5 +80,5 @@ Weather in New York: 🌧️
 
 ## 🙌 Author
 
-Crafted by **\Uday** with care and curiosity 💙
+Crafted by **Uday Kumar** with care and curiosity 💙
 One step closer to Python mastery with every line of code 🚀
