@@ -21,7 +21,8 @@ day\_26\_mood\_journal/
 ├── mood\_journal.py           # Main script
 └── mood\_journal.txt          # Auto-generated journal log
 
-````
+---
+
 ## 🚀 How to Run
 
 ### 1. 📦 Install Dependencies
@@ -68,4 +69,5 @@ Goodbye! Keep your mood journal updated.
 ---
 
 🫶 Crafted by **Uday Kumar** with care and curiosity 💙
+
 
