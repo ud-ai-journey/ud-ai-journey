@@ -1,4 +1,3 @@
-```markdown
 # 🧠 AI Mood Journal – Day 26
 
 Welcome to Day 26 of the 100-Day Python + AI Challenge!  
@@ -17,8 +16,6 @@ Today's project is an **AI-Powered Mood Journal** – a voice-enabled diary that
 ---
 
 ## 📁 Folder Structure
-
-```
 
 day\_26\_mood\_journal/
 ├── mood\_journal.py           # Main script
@@ -74,6 +71,4 @@ Goodbye! Keep your mood journal updated.
 ---
 
 🫶 Crafted by **Uday Kumar** with care and curiosity 💙
-
-```
 
