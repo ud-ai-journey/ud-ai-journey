@@ -22,9 +22,6 @@ day\_26\_mood\_journal/
 └── mood\_journal.txt          # Auto-generated journal log
 
 ````
-
----
-
 ## 🚀 How to Run
 
 ### 1. 📦 Install Dependencies
