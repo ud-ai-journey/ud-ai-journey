@@ -44,7 +44,7 @@ day\_25\_weather\_dashboard/
    * Paste it in `weather_dashboard.py`:
 
      ```python
-     API_KEY = "b4f314e071a5462a7586a41bf72a8fd1"
+     API_KEY = "OPENWEATHERMAP_API_KEY"
      ```
 
 5. Run the app:
