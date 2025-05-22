@@ -111,7 +111,11 @@ Sentiment: NEUTRAL (0.83) - Feeling balanced—any big plans?
 
 ## 📸 Demo
 
-🎥 *Coming soon:* A 15-second screen recording of Voiceify Live Plus in action!
+🎥 Watch Voiceify Live Plus in action in this quick demo:
+
+[![Voiceify Live Plus Demo](https://img.youtube.com/vi/soS4m8cybq8/maxresdefault.jpg)](https://youtu.be/soS4m8cybq8)
+
+*Click the image above to watch the demo on YouTube showing real-time voice sentiment analysis and feedback*
 
 ---
 
