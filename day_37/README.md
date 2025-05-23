@@ -143,5 +143,5 @@ This is a core part of my long-term vision for the **Empathy Engine**.
 
 * Try it out and send your feedback!
 * Star ⭐ the repo if you find it useful.
-* Follow my journey: [GitHub Profile](https://github.com/ud-ai-journey/ud-ai-journey)
+* Follow my journey : [GitHub Profile](https://github.com/ud-ai-journey/ud-ai-journey)
 
