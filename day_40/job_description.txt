@@ -1,0 +1,23 @@
+Job Title: AI Applications Researcher/Vibe Coder  
+Location: Hyderabad, India (Hybrid)  
+Company: FutureTech AI Labs  
+
+Job Description  
+FutureTech AI Labs is seeking a talented AI Applications Researcher and Vibe Coder to join our innovative team. This role combines cutting-edge AI research with AI-driven development to create transformative applications. You’ll research, prototype, and build AI solutions while using vibe coding techniques to accelerate development with tools like Cursor, Claude, and GPT-4.  
+
+Responsibilities:  
+- Conduct research on AI technologies, focusing on natural language processing, machine learning, and human-centric AI applications.  
+- Develop and prototype AI-driven applications using vibe coding tools like Cursor and Replit.  
+- Collaborate with cross-functional teams to integrate AI solutions into real-world use cases.  
+- Leverage large language models (LLMs) to generate, debug, and optimize code through natural language prompts.  
+- Explore empathy-driven AI concepts to enhance user experience and productivity.  
+- Present research findings and contribute to internal knowledge-sharing initiatives.  
+
+Requirements:  
+- 1-3 years of experience in AI research or software development.  
+- Strong skills in Python, machine learning, and natural language processing.  
+- Proficiency with vibe coding tools like Cursor, Claude, GPT-4, or Replit.  
+- Experience with empathy-driven AI or human-centric design is a plus.  
+- Familiarity with prototyping and deploying AI applications.  
+- Excellent communication and collaboration skills.  
+- Passion for innovation, AI tool research, and creating impactful solutions.

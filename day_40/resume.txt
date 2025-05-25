@@ -1,0 +1,64 @@
+BOYA UDAY KUMAR
+     Address: H.NO.1-212, Kurnool, 518002
+     Phone: +91 9392837729
+     Email: 20udaykumar02@gmail.com
+     Website: https://ud-ai-kumar.vercel.app/
+
+     SUMMARY
+     Dynamic and driven professional with a strong foundation in AI, communication, and innovation. Experienced in developing impactful ideas like the Empathy Engine and exploring tools that improve user experience and productivity. Passionate about blending technology with human-centered thinking to create meaningful solutions. Eager to contribute to a mission-driven team with creativity, adaptability, and full commitment to growth and collaboration.
+
+     WORK EXPERIENCE
+     Developer & AI Research Enthusiast, ADP
+     Nov 2023 – Present
+     - Teamed with internal AI groups to explore tools that improve employee productivity.
+     - Proposed the Empathy Engine, a human-centric AI concept recognized by ADP’s CEO.
+     - Explored natural language processing techniques to enhance the Empathy Engine, improving user interaction and sentiment analysis.
+     - Leveraged AI-driven development tools to accelerate prototyping of human-centric applications, aligning with vibe coding practices.
+     - Contributed to software development initiatives by researching and prototyping AI applications for real-world use cases.
+     - Investigated machine learning algorithms to improve the predictive capabilities of the Empathy Engine.
+
+     Intern to Full-time Contributor, Cognizant
+     Feb 2023 - Nov 2023
+     - Joined via campus recruitment and converted to full-time based on performance.
+     - Used productivity tools to complete tasks effectively and explored AI resources.
+     - Supported marketing, client interaction, and communication-based roles within the team.
+
+     IoT & Telecommunications Intern, BSNL, India
+     Feb 2022 – Mar 2022
+     - Explored the application of telecom network infrastructure to support Internet of Things (IoT) connectivity.
+     - Built a project that can detect hazardous gas leakage and alarm the people through SMS.
+
+     EDUCATION
+     Bachelor of Engineering in Electronics and Communication (Gold Medalist)
+     G. Pullaiah College of Engineering & Technology, JNTUA
+     Major in Electronics and Communication engineering
+     Capstone Project & Thesis on 
+     2019 – 2023
+
+     Intermediate (MPC) – 100%
+     Vavilala Junior College, Kurnool
+
+     SSC (CBSE) – 100%
+     Ridge School of Excellence, Kurnool
+
+     PROJECTS
+     Client Onboarding & Unemployment Claims Automation Platform
+     - Significantly improved both employer experience and employee claim timelines, making the process more seamless and human-centric.
+
+     Sophisticated Smart Blind Stick
+     - Built an obstacle-detection stick using ultrasonic sensors, empowering visually impaired users with safety and independence.
+
+     NLP Sentiment Analyzer
+     - Developed a Python-based tool using NLTK and Transformers to analyze user sentiment in text data.
+
+     To-Do List App
+     - Built a responsive web app using Cursor, applying vibe coding techniques to generate code via natural language prompts.
+
+     Chatbot Prototype
+     - Developed a simple chatbot using Python on Replit, demonstrating cloud-based development skills.
+
+     ADDITIONAL INFORMATION
+     Core: AI Tool Research, Marketing Strategy, Communication, Empathy-Driven Thinking
+     Languages: English, Hindi, Telugu
+     Certifications: Python (Cognitive Class, SoloLearn), AI Foundations (ISTE & IBM)
+     Clubs & Leadership: Head – Innovation Club, Secretary – Toastmasters, Cricket State Medalist
