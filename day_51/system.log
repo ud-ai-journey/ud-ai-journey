@@ -1,0 +1,7 @@
+[INFO] 2025-05-27 10:00:01 - System started
+[WARNING] 2025-05-27 10:01:05 - Disk space low
+[ERROR] 2025-05-27 10:01:30 - Failed to connect to database
+[INFO] 2025-05-27 10:02:10 - Scheduled job executed
+[ERROR] 2025-05-27 10:03:00 - Timeout while accessing API
+[INFO] 2025-05-27 10:03:30 - System running normally
+[WARNING] 2025-05-27 10:05:00 - High memory usage

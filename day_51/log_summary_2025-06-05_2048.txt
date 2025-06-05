@@ -1,0 +1,16 @@
+📊 === LOG SUMMARY === 📊
+==============================
+
+Date Range: 2025-05-27 to 2025-05-27
+
+📈 Log Levels:
+ℹ️ INFO: 3
+⚠️ WARNING: 2
+❌ ERROR: 2
+
+📋 Top 3 Frequent Messages:
+📌 System started (1 time)
+📌 Disk space low (1 time)
+📌 Failed to connect to database (1 time)
+
+📅 Generated on: 2025-06-05 20:48:19
