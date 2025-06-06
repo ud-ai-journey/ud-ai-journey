@@ -21,7 +21,7 @@ It helps creators optimize their video titles for **SEO**, **clickability**, and
 
 ## 📸 Demo Screenshot
 
-![YouTube Title Optimizer Screenshot](screenshot.png) <!-- Add screenshot path if available -->
+![YouTube Title Optimizer Screenshot](Screenshot 2025-06-06 214658.png) 
 
 ---
 
@@ -68,7 +68,7 @@ day\_52\_youtube\_title\_optimizer/
 
 GEMINI\_API\_KEY=your\_gemini\_api\_key\_here
 
-````
+```
 
 ---
 
@@ -78,7 +78,7 @@ GEMINI\_API\_KEY=your\_gemini\_api\_key\_here
    ```bash
    git clone https://github.com/ud-ai-journey/ud-ai-journey.git
    cd day_52_youtube_title_optimizer
-````
+   ```
 
 2. Install dependencies:
 
