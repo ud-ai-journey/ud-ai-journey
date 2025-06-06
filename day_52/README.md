@@ -21,7 +21,7 @@ It helps creators optimize their video titles for **SEO**, **clickability**, and
 
 ## 📸 Demo Screenshot
 
-![YouTube Title Optimizer Screenshot](Screenshot 2025-06-06 214658.png) 
+![YouTube Title Optimizer Screenshot](C:\Users\uday kumar\Python-AI\ud-ai-journey\day_52\Screenshot 2025-06-06 214658.png) 
 
 ---
 
