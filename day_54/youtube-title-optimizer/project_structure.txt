@@ -1,0 +1,89 @@
+youtube_optimizer/
+├── app/                      # Main Streamlit application
+│   ├── __init__.py
+│   ├── main.py               # Entry point
+│   ├── pages/                # Multi-page Streamlit app
+│   │   ├── __init__.py
+│   │   ├── home.py
+│   │   ├── batch_optimizer.py
+│   │   ├── analytics.py
+│   │   ├── competitor_analysis.py
+│   │   ├── settings.py
+│   │   └── account.py
+│   ├── components/           # Custom Streamlit components
+│   │   ├── __init__.py
+│   │   ├── title_card.py
+│   │   ├── metrics_dashboard.py
+│   │   ├── comparison_view.py
+│   │   └── youtube_preview.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── ui_helpers.py
+│       └── session_state.py
+├── api/                      # FastAPI backend services
+│   ├── __init__.py
+│   ├── main.py               # FastAPI app
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── optimization.py
+│   │   ├── analytics.py
+│   │   ├── users.py
+│   │   └── youtube.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── optimization.py
+│   │   ├── analytics.py
+│   │   └── users.py
+│   └── services/
+│       ├── __init__.py
+│       ├── cache.py
+│       └── database.py
+├── core/                     # Core business logic
+│   ├── __init__.py
+│   ├── ai/
+│   │   ├── __init__.py
+│   │   ├── gemini_service.py
+│   │   ├── openai_service.py
+│   │   ├── anthropic_service.py
+│   │   ├── prompt_templates.py
+│   │   └── model_factory.py
+│   ├── analytics/
+│   │   ├── __init__.py
+│   │   ├── metrics.py
+│   │   ├── trends.py
+│   │   └── predictions.py
+│   ├── youtube/
+│   │   ├── __init__.py
+│   │   ├── api_client.py
+│   │   ├── data_fetcher.py
+│   │   └── metrics_analyzer.py
+│   └── nlp/
+│       ├── __init__.py
+│       ├── sentiment.py
+│       ├── keyword_extractor.py
+│       └── title_classifier.py
+├── db/                       # Database models and migrations
+│   ├── __init__.py
+│   ├── models.py
+│   ├── migrations/
+│   └── repository.py
+├── tests/                    # Comprehensive test suite
+│   ├── __init__.py
+│   ├── test_api/
+│   ├── test_core/
+│   └── test_app/
+├── docker/                   # Docker configuration
+│   ├── Dockerfile.app
+│   ├── Dockerfile.api
+│   └── docker-compose.yml
+├── k8s/                      # Kubernetes deployment
+│   ├── app-deployment.yaml
+│   ├── api-deployment.yaml
+│   └── redis-deployment.yaml
+├── .env.example
+├── config.py                 # Configuration management
+├── requirements.txt
+├── requirements-dev.txt
+├── setup.py
+├── README.md
+└── LICENSE
