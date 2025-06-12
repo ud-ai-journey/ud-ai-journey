@@ -63,5 +63,4 @@ Just type `exit` to quit the app.
 
 ## 👨‍💻 Made with ❤️ on Day 58 of the #100DaysOfCode Challenge
 
-```
 
