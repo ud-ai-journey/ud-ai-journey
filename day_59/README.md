@@ -32,7 +32,7 @@ An interactive CLI-based Python tool that showcases popular coding patterns with
 1. Run the script:
    ```bash
    python day_59/code_pattern_visualizer.py
-````
+
 
 2. Choose a pattern from the prompt:
 
