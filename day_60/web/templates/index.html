@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Voice Assistant</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold mb-2">🤖 Web Voice Assistant</h1>
+            <p class="text-blue-400" id="status">Ready to help!</p>
+        </header>
+
+        <div class="max-w-2xl mx-auto bg-gray-800 rounded-lg shadow-lg p-6 mb-8">
+            <div id="chat-display" class="h-96 overflow-y-auto mb-4 p-4 bg-gray-700 rounded">
+                <div class="assistant-message">
+                    <p class="mb-2">👋 Hello! I'm your voice assistant. You can:</p>
+                    <ul class="list-disc list-inside ml-4">
+                        <li>Ask for the time</li>
+                        <li>Search Wikipedia</li>
+                        <li>Get a joke</li>
+                        <li>And more!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex space-x-4">
+                <button id="startButton" onclick="toggleRecording()" 
+                        class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200">
+                    🎤 Start Recording
+                </button>
+                <button onclick="tellJoke()" 
+                        class="flex-1 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200">
+                    😄 Tell a Joke
+                </button>
+                <button onclick="getTime()" 
+                        class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-200">
+                    ⏰ Get Time
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isRecording = false;
+        let recognition;
+
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+
+            recognition.onresult = function(event) {
+                const command = event.results[0][0].transcript;
+                addMessage('user', command);
+                processCommand(command);
+            };
+
+            recognition.onerror = function(event) {
+                console.error('Speech recognition error:', event.error);
+                updateStatus('Error: ' + event.error, 'text-red-500');
+            };
+
+            recognition.onend = function() {
+                if (isRecording) {
+                    recognition.start();
+                } else {
+                    updateButtonState(false);
+                }
+            };
+        } else {
+            alert('Speech recognition is not supported in this browser. Please use Chrome.');
+        }
+
+        function toggleRecording() {
+            isRecording = !isRecording;
+            if (isRecording) {
+                recognition.start();
+                updateButtonState(true);
+            } else {
+                recognition.stop();
+                updateButtonState(false);
+            }
+        }
+
+        function updateButtonState(recording) {
+            const button = document.getElementById('startButton');
+            if (recording) {
+                button.textContent = '⏹ Stop Recording';
+                button.classList.remove('bg-green-500', 'hover:bg-green-600');
+                button.classList.add('bg-red-500', 'hover:bg-red-600');
+                updateStatus('Listening...', 'text-green-500');
+            } else {
+                button.textContent = '🎤 Start Recording';
+                button.classList.remove('bg-red-500', 'hover:bg-red-600');
+                button.classList.add('bg-green-500', 'hover:bg-green-600');
+                updateStatus('Ready to help!', 'text-blue-400');
+            }
+        }
+
+        function updateStatus(message, colorClass) {
+            const status = document.getElementById('status');
+            status.className = colorClass;
+            status.textContent = message;
+        }
+
+        function addMessage(sender, message) {
+            const chatDisplay = document.getElementById('chat-display');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'mb-4';
+            
+            const timestamp = new Date().toLocaleTimeString();
+            const icon = sender === 'user' ? '👤' : '🤖';
+            
+            messageDiv.innerHTML = `
+                <p class="text-gray-400 text-sm">${timestamp}</p>
+                <p class="text-white"><span class="font-bold">${icon} ${sender === 'user' ? 'You' : 'Assistant'}:</span> ${message}</p>
+            `;
+            
+            chatDisplay.appendChild(messageDiv);
+            chatDisplay.scrollTop = chatDisplay.scrollHeight;
+        }
+
+        async function processCommand(command) {
+            try {
+                updateStatus('Processing...', 'text-yellow-500');
+                const response = await axios.post('/process_command', { command });
+                addMessage('assistant', response.data.response);
+                updateStatus('Ready to help!', 'text-blue-400');
+            } catch (error) {
+                console.error('Error processing command:', error);
+                updateStatus('Error processing command', 'text-red-500');
+            }
+        }
+
+        async function tellJoke() {
+            try {
+                const response = await axios.get('/tell_joke');
+                addMessage('assistant', response.data.response);
+            } catch (error) {
+                console.error('Error getting joke:', error);
+            }
+        }
+
+        async function getTime() {
+            try {
+                const response = await axios.get('/get_time');
+                addMessage('assistant', response.data.response);
+            } catch (error) {
+                console.error('Error getting time:', error);
+            }
+        }
+    </script>
+</body>
+</html>
