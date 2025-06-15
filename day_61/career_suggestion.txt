@@ -1,0 +1,13 @@
+Recommended Role: Data Analyst
+
+Based on Your Skills:
+- Python
+- HTML/CSS
+- Git
+- SQL
+- Excel
+
+Tips for Success:
+- Build portfolio projects using Pandas, SQL, and dashboards.
+- Master Tableau or Power BI for data visualization.
+- Practice data cleaning and statistical analysis.
