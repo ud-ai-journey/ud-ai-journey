@@ -61,5 +61,5 @@ A Python tool that generates movie pitches from 2-3 keywords (e.g., `love, horro
 ## ❤️ Credits
 
 Built with curiosity and love for movies!
-**Part of Boya Uday Kumar's 100 Days of Python + AI Journey**  
+--- 
 **June 16, 2025**
