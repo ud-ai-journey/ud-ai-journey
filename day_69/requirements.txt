@@ -1,6 +1,6 @@
 streamlit
+pyperclip
 transformers
 torch
-
 pandas
 plotly
