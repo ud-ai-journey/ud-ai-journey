@@ -1,6 +1,6 @@
 streamlit
 pyperclip
-transformers
+transformers==4.37.0
 torch
 pandas
 plotly
