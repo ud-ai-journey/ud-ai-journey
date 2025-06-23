@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailMind - Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #1a202c;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #2d3748;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            font-size: 1.4rem;
+            color: #4a5568;
+            margin-top: 2rem;
+        }
+        code {
+            background-color: #e2e8f0;
+            color: #2d3748;
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            border-radius: 6px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23667eea"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>') no-repeat left center;
+            background-size: 20px;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📬 MailMind Documentation</h1>
+            <p>Your guide to the AI-Powered Email Intelligence Platform</p>
+        </div>
+
+        <div class="card">
+            <h2>Overview</h2>
+            <p>MailMind is a sophisticated tool designed to help you quickly understand and act on your emails. In an age of information overload, MailMind cuts through the noise by using advanced AI models to provide concise summaries, extract key action items, and analyze the emotional tone of any email. This allows you to prioritize your responses, manage your tasks, and communicate more effectively.</p>
+        </div>
+
+        <div class="card">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>📋 Smart Summarization:</strong> Get the gist of long emails in seconds. The AI condenses content into short, medium, or detailed summaries based on your preference.</li>
+                <li><strong>✅ Action Item Extraction:</strong> Never miss a task again. MailMind automatically identifies and lists actionable requests, deadlines, and follow-ups.</li>
+                <li><strong>🎭 Tone Analysis:</strong> Understand the underlying sentiment and tone of an email—whether it's positive, negative, urgent, or friendly—to craft the perfect reply.</li>
+                <li><strong>📊 Analytics Dashboard:</strong> Visualize your usage statistics, including the total number of analyses and the distribution of email tones over time, right in the sidebar.</li>
+                <li><strong>⚙️ Customizable Settings:</strong> Tailor the app to your workflow with settings for summary length, analysis components, and more.</li>
+                <li><strong>📜 Analysis History:</strong> Keep track of all your past analyses. Review, compare, or revisit insights from previous emails at any time.</li>
+                <li><strong>📤 Easy Sharing & Export:</strong> Copy results to your clipboard with a single click, share summaries via email, or download action items as a to-do list.</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>How to Use MailMind</h2>
+            <h3>Step 1: Input Your Email</h3>
+            <p>You have two easy ways to provide the email content:</p>
+            <ol>
+                <li><strong>Paste Content:</strong> Simply copy the text from your email client and paste it directly into the text area on the main page.</li>
+                <li><strong>Upload a File:</strong> Alternatively, you can save your email as a <code>.txt</code>, <code>.eml</code>, or <code>.msg</code> file and upload it using the file uploader.</li>
+            </ol>
+
+            <h3>Step 2: Analyze</h3>
+            <p>Once your email content is in the app, click the large <strong>🚀 Analyze Email</strong> button. The AI will process the text, which usually takes just a few seconds.</p>
+
+            <h3>Step 3: Review the Results</h3>
+            <p>The results are presented in three main cards:</p>
+            <ul>
+                <li><strong>Smart Summary:</strong> A condensed version of your email.</li>
+                <li><strong>Action Items:</strong> A checklist of tasks identified in the email.</li>
+                <li><strong>Tone Analysis:</strong> A description of the email's sentiment and character.</li>
+            </ul>
+            <p>You can use the buttons below each card to copy the content or share it.</p>
+            
+            <h3>Step 4: Use the Sidebar</h3>
+             <p>The sidebar is your command center. Here you can:</p>
+            <ul>
+                <li>View your personal analytics dashboard.</li>
+                <li>Adjust settings for future analyses.</li>
+                <li>Clear your history or export your analytics data.</li>
+                <li>See a quick log of your most recent activity.</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Advantages of Using MailMind</h2>
+            <ul>
+                <li><strong>Time-Saving:</strong> Dramatically reduce the time spent reading and processing emails.</li>
+                <li><strong>Increased Productivity:</strong> Focus on what matters by immediately identifying action items and key information.</li>
+                <li><strong>Improved Communication:</strong> By understanding the tone, you can avoid misunderstandings and build better professional relationships.</li>
+                <li><strong>Enhanced Organization:</strong> Keep a searchable history of your important email insights without cluttering your inbox.</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>MailMind | Built by Uday Kumar</p>
+            <p><a href="https://github.com/ud-ai-journey/ud-ai-journey" target="_blank">GitHub Repository</a></p>
+        </div>
+    </div>
+</body>
+</html>
