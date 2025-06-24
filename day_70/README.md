@@ -28,14 +28,6 @@ An intelligent tool that helps teachers, educators, and trainers generate struct
 
 ---
 
-## 📦 Tech Stack
-
-- **Frontend**: [MIT App Inventor / Tkinter / Web Tool — specify yours]
-- **Backend**: OpenAI GPT-4 (via API)
-- **Language**: Python (or specify if built in a no-code platform)
-
----
-
 ## 💻 Use Cases
 
 - Teachers preparing daily or weekly plans
