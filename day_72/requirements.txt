@@ -1,0 +1,5 @@
+# requirements.txt
+# groq  <-- Remove or comment out if using Ollama
+python-dotenv
+ollama
+pyttsx3 # Add this line instead of elevenlabs
