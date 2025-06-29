@@ -1,0 +1,25 @@
+Metric,Value
+Total Files Processed,10
+Files Moved,0
+Files Skipped,10
+Errors,0
+Total Size Processed (MB),0.00
+Total Size Moved (MB),0.00
+Duration (seconds),10.46
+
+Category,Count,Size (MB),Moved,Skipped,Errors
+Others,1,0.00,0,1,0
+System,9,0.00,0,9,0
+
+Timestamp,Operation,Source,Destination,Category,Size (Bytes),Reason,Error Info
+2025-06-29T22:16:43.733590,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\.gitignore,,Others,313,skipped_during_scan: matches exclude pattern: .*,
+2025-06-29T22:16:43.735603,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\api,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.736604,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\app,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.737604,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.738290,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\components,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.738290,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\core,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.739291,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\hooks,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.739291,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\lib,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.742218,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\public,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:43.742218,skipped,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\styles,,System,0,is a directory (top-level files only),
+2025-06-29T22:16:48.682436,backup_created,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer,C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221648,System,0,Structure backup created at C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221648,

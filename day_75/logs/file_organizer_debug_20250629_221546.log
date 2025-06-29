@@ -1,0 +1,88 @@
+2025-06-29 22:15:46,428 - file_organizer - INFO     - Logging DEBUG messages to file: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_debug_20250629_221546.log
+2025-06-29 22:16:22,019 - file_organizer - INFO     - Scanning directory for files: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+2025-06-29 22:16:22,019 - file_organizer - DEBUG    - '.gitignore' matches exclude pattern '.*'.
+2025-06-29 22:16:22,019 - file_organizer - DEBUG    - Skipping file during scan: .gitignore (matches exclude pattern: .*)
+2025-06-29 22:16:22,019 - file_organizer - INFO     - SKIPPED: '.gitignore' (skipped_during_scan: matches exclude pattern: .*)
+2025-06-29 22:16:22,025 - file_organizer - DEBUG    - Skipping directory during scan: api
+2025-06-29 22:16:22,025 - file_organizer - INFO     - SKIPPED: 'api' (is a directory (top-level files only))
+2025-06-29 22:16:22,025 - file_organizer - DEBUG    - Skipping directory during scan: app
+2025-06-29 22:16:22,025 - file_organizer - INFO     - SKIPPED: 'app' (is a directory (top-level files only))
+2025-06-29 22:16:22,025 - file_organizer - DEBUG    - Skipping directory during scan: components
+2025-06-29 22:16:22,025 - file_organizer - INFO     - SKIPPED: 'components' (is a directory (top-level files only))
+2025-06-29 22:16:22,029 - file_organizer - DEBUG    - Skipping directory during scan: core
+2025-06-29 22:16:22,029 - file_organizer - INFO     - SKIPPED: 'core' (is a directory (top-level files only))
+2025-06-29 22:16:22,029 - file_organizer - DEBUG    - Skipping directory during scan: hooks
+2025-06-29 22:16:22,029 - file_organizer - INFO     - SKIPPED: 'hooks' (is a directory (top-level files only))
+2025-06-29 22:16:22,029 - file_organizer - DEBUG    - Skipping directory during scan: lib
+2025-06-29 22:16:22,029 - file_organizer - INFO     - SKIPPED: 'lib' (is a directory (top-level files only))
+2025-06-29 22:16:22,043 - file_organizer - DEBUG    - Skipping directory during scan: public
+2025-06-29 22:16:22,043 - file_organizer - INFO     - SKIPPED: 'public' (is a directory (top-level files only))
+2025-06-29 22:16:22,044 - file_organizer - DEBUG    - Skipping directory during scan: styles
+2025-06-29 22:16:22,044 - file_organizer - INFO     - SKIPPED: 'styles' (is a directory (top-level files only))
+2025-06-29 22:16:22,048 - file_organizer - INFO     - Finished scanning. Found 8 eligible files at top level. 9 items were skipped or errored during scan.
+2025-06-29 22:16:22,051 - file_organizer - DEBUG    - Using default 'Others' for 'next.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:22,054 - file_organizer - DEBUG    - Using default 'Others' for 'postcss.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:29,243 - file_organizer - INFO     - Creating structure backup in: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221629
+2025-06-29 22:16:29,263 - file_organizer - INFO     - Structure backup created: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221629\directory_structure.json
+2025-06-29 22:16:29,263 - file_organizer - INFO     - BACKUP_CREATED: 'youtube-title-optimizer' -> organizer trail\youtube-title-optimizer_backup_20250629_221629 (Structure backup created at C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221629)
+2025-06-29 22:16:32,703 - file_organizer - INFO     - User confirmed organization of 5 files.
+2025-06-29 22:16:32,705 - file_organizer - INFO     - Attempting to process 5 files in directory: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer (Dry Run: False)
+2025-06-29 22:16:32,705 - file_organizer - DEBUG    - Disk space check passed for 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer'. Free: 15,893,606,400 bytes, Required: 52,434,701 bytes.
+2025-06-29 22:16:32,705 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\components.json
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:32,708 - file_organizer - DEBUG    - Determined category: Code, size: 443 bytes.
+2025-06-29 22:16:32,710 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,710 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\components.json
+2025-06-29 22:16:32,713 - file_organizer - INFO     - Created directory: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,714 - file_organizer - DEBUG    - No duplicate for 'components.json'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\components.json'.
+2025-06-29 22:16:32,716 - file_organizer - INFO     - SUCCESS (moved): 'components.json' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\components.json'
+2025-06-29 22:16:32,717 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\package.json
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:32,717 - file_organizer - DEBUG    - Determined category: Code, size: 2201 bytes.
+2025-06-29 22:16:32,720 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,720 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\package.json
+2025-06-29 22:16:32,721 - file_organizer - DEBUG    - No duplicate for 'package.json'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\package.json'.
+2025-06-29 22:16:32,723 - file_organizer - INFO     - SUCCESS (moved): 'package.json' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\package.json'
+2025-06-29 22:16:32,724 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\pnpm-lock.yaml
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:32,724 - file_organizer - DEBUG    - Determined category: Code, size: 92 bytes.
+2025-06-29 22:16:32,727 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,728 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\pnpm-lock.yaml
+2025-06-29 22:16:32,728 - file_organizer - DEBUG    - No duplicate for 'pnpm-lock.yaml'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\pnpm-lock.yaml'.
+2025-06-29 22:16:32,728 - file_organizer - INFO     - SUCCESS (moved): 'pnpm-lock.yaml' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\pnpm-lock.yaml'
+2025-06-29 22:16:32,728 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\tailwind.config.ts
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:32,736 - file_organizer - DEBUG    - Determined category: Code, size: 2570 bytes.
+2025-06-29 22:16:32,737 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,738 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tailwind.config.ts
+2025-06-29 22:16:32,738 - file_organizer - DEBUG    - No duplicate for 'tailwind.config.ts'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tailwind.config.ts'.
+2025-06-29 22:16:32,748 - file_organizer - INFO     - SUCCESS (moved): 'tailwind.config.ts' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tailwind.config.ts'
+2025-06-29 22:16:32,748 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\tsconfig.json
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:32,748 - file_organizer - DEBUG    - Determined category: Code, size: 595 bytes.
+2025-06-29 22:16:32,751 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code
+2025-06-29 22:16:32,751 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tsconfig.json
+2025-06-29 22:16:32,751 - file_organizer - DEBUG    - No duplicate for 'tsconfig.json'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tsconfig.json'.
+2025-06-29 22:16:32,755 - file_organizer - INFO     - SUCCESS (moved): 'tsconfig.json' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Code\tsconfig.json'
+2025-06-29 22:16:32,758 - file_organizer - INFO     - Report exported to: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_report_20250629_221632.txt
+2025-06-29 22:16:32,766 - file_organizer - INFO     - Report exported to: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_report_20250629_221632.csv
