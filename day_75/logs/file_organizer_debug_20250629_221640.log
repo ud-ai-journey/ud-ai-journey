@@ -1,0 +1,73 @@
+2025-06-29 22:16:40,451 - file_organizer - INFO     - Logging DEBUG messages to file: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_debug_20250629_221640.log
+2025-06-29 22:16:43,717 - file_organizer - INFO     - Scanning directory for files: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+2025-06-29 22:16:43,717 - file_organizer - DEBUG    - '.gitignore' matches exclude pattern '.*'.
+2025-06-29 22:16:43,717 - file_organizer - DEBUG    - Skipping file during scan: .gitignore (matches exclude pattern: .*)
+2025-06-29 22:16:43,734 - file_organizer - INFO     - SKIPPED: '.gitignore' (skipped_during_scan: matches exclude pattern: .*)
+2025-06-29 22:16:43,734 - file_organizer - DEBUG    - Skipping directory during scan: api
+2025-06-29 22:16:43,735 - file_organizer - INFO     - SKIPPED: 'api' (is a directory (top-level files only))
+2025-06-29 22:16:43,736 - file_organizer - DEBUG    - Skipping directory during scan: app
+2025-06-29 22:16:43,736 - file_organizer - INFO     - SKIPPED: 'app' (is a directory (top-level files only))
+2025-06-29 22:16:43,736 - file_organizer - DEBUG    - Skipping directory during scan: Code
+2025-06-29 22:16:43,737 - file_organizer - INFO     - SKIPPED: 'Code' (is a directory (top-level files only))
+2025-06-29 22:16:43,737 - file_organizer - DEBUG    - Skipping directory during scan: components
+2025-06-29 22:16:43,738 - file_organizer - INFO     - SKIPPED: 'components' (is a directory (top-level files only))
+2025-06-29 22:16:43,738 - file_organizer - DEBUG    - Skipping directory during scan: core
+2025-06-29 22:16:43,738 - file_organizer - INFO     - SKIPPED: 'core' (is a directory (top-level files only))
+2025-06-29 22:16:43,738 - file_organizer - DEBUG    - Skipping directory during scan: hooks
+2025-06-29 22:16:43,739 - file_organizer - INFO     - SKIPPED: 'hooks' (is a directory (top-level files only))
+2025-06-29 22:16:43,739 - file_organizer - DEBUG    - Skipping directory during scan: lib
+2025-06-29 22:16:43,739 - file_organizer - INFO     - SKIPPED: 'lib' (is a directory (top-level files only))
+2025-06-29 22:16:43,742 - file_organizer - DEBUG    - Skipping directory during scan: public
+2025-06-29 22:16:43,742 - file_organizer - INFO     - SKIPPED: 'public' (is a directory (top-level files only))
+2025-06-29 22:16:43,742 - file_organizer - DEBUG    - Skipping directory during scan: styles
+2025-06-29 22:16:43,742 - file_organizer - INFO     - SKIPPED: 'styles' (is a directory (top-level files only))
+2025-06-29 22:16:43,742 - file_organizer - INFO     - Finished scanning. Found 3 eligible files at top level. 10 items were skipped or errored during scan.
+2025-06-29 22:16:43,747 - file_organizer - DEBUG    - Using default 'Others' for 'next.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:43,747 - file_organizer - DEBUG    - Using default 'Others' for 'postcss.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:48,656 - file_organizer - INFO     - Creating structure backup in: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221648
+2025-06-29 22:16:48,681 - file_organizer - INFO     - Structure backup created: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221648\directory_structure.json
+2025-06-29 22:16:48,682 - file_organizer - INFO     - BACKUP_CREATED: 'youtube-title-optimizer' -> organizer trail\youtube-title-optimizer_backup_20250629_221648 (Structure backup created at C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221648)
+2025-06-29 22:16:48,683 - file_organizer - DEBUG    - Using default 'Others' for 'next.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:48,683 - file_organizer - DEBUG    - Using default 'Others' for 'postcss.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:50,766 - file_organizer - INFO     - User confirmed organization of 3 files.
+2025-06-29 22:16:50,766 - file_organizer - INFO     - Attempting to process 3 files in directory: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer (Dry Run: False)
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - Disk space check passed for 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer'. Free: 15,893,516,288 bytes, Required: 52,432,380 bytes.
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\next.config.mjs
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - Using default 'Others' for 'next.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - Determined category: Others, size: 228 bytes.
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others
+2025-06-29 22:16:50,767 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\next.config.mjs
+2025-06-29 22:16:50,767 - file_organizer - INFO     - Created directory: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others
+2025-06-29 22:16:50,774 - file_organizer - DEBUG    - No duplicate for 'next.config.mjs'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\next.config.mjs'.
+2025-06-29 22:16:50,775 - file_organizer - INFO     - SUCCESS (moved): 'next.config.mjs' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\next.config.mjs'
+2025-06-29 22:16:50,777 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\postcss.config.mjs
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:50,777 - file_organizer - DEBUG    - Using default 'Others' for 'postcss.config.mjs' (extension '.mjs' unknown).
+2025-06-29 22:16:50,778 - file_organizer - DEBUG    - Determined category: Others, size: 135 bytes.
+2025-06-29 22:16:50,779 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others
+2025-06-29 22:16:50,779 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\postcss.config.mjs
+2025-06-29 22:16:50,780 - file_organizer - DEBUG    - No duplicate for 'postcss.config.mjs'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\postcss.config.mjs'.
+2025-06-29 22:16:50,781 - file_organizer - INFO     - SUCCESS (moved): 'postcss.config.mjs' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Others\postcss.config.mjs'
+2025-06-29 22:16:50,782 - file_organizer - DEBUG    - 
+================================================================================
+Processing file: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\project_structure.txt
+Target path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer
+Dry run: False
+================================================================================
+2025-06-29 22:16:50,782 - file_organizer - DEBUG    - Determined category: Documents, size: 3217 bytes.
+2025-06-29 22:16:50,898 - file_organizer - DEBUG    - Intended destination folder: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Documents
+2025-06-29 22:16:50,898 - file_organizer - DEBUG    - Intended destination path: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Documents\project_structure.txt
+2025-06-29 22:16:50,910 - file_organizer - INFO     - Created directory: C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Documents
+2025-06-29 22:16:50,911 - file_organizer - DEBUG    - No duplicate for 'project_structure.txt'. Will move to 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Documents\project_structure.txt'.
+2025-06-29 22:16:50,913 - file_organizer - INFO     - SUCCESS (moved): 'project_structure.txt' -> 'C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer\Documents\project_structure.txt'
+2025-06-29 22:16:50,916 - file_organizer - INFO     - Report exported to: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_report_20250629_221650.txt
+2025-06-29 22:16:50,916 - file_organizer - INFO     - Report exported to: C:\Users\uday kumar\Desktop\ud-ai-journey\day_75\logs\file_organizer_report_20250629_221650.csv

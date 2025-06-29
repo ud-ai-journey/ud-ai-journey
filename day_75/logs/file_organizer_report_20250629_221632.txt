@@ -1,0 +1,35 @@
+============================================================
+FILE ORGANIZER REPORT
+============================================================
+
+SUMMARY
+------------------------------------------------------------
+Start Time:           2025-06-29T22:15:46.428314
+End Time:             2025-06-29T22:16:32.755350
+Duration:             46.33 seconds
+Total Files Processed:       9
+Files Moved:                 0
+Files Skipped:               9
+Errors:                      0
+Total Size Processed:     0.00 MB
+Total Size Moved:         0.00 MB
+
+CATEGORY BREAKDOWN
+------------------------------------------------------------
+Category                     Count    Size (MB)    Moved  Skipped   Errors
+------------------------------------------------------------
+Others                           1         0.00        0        1        0
+System                           8         0.00        0        8        0
+
+RECENT OPERATIONS (last 50)
+------------------------------------------------------------
+2025-06-29T22:16:22 SKIPPED: .gitignore (skipped_during_scan: matches exclude pattern: .*)
+2025-06-29T22:16:22 SKIPPED: api (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: app (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: components (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: core (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: hooks (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: lib (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: public (is a directory (top-level files only))
+2025-06-29T22:16:22 SKIPPED: styles (is a directory (top-level files only))
+2025-06-29T22:16:29 BACKUP_CREATED: youtube-title-optimizer -> organizer trail\youtube-title-optimizer_backup_20250629_221629 (Structure backup created at C:\Users\uday kumar\Downloads\organizer trail\youtube-title-optimizer_backup_20250629_221629)
