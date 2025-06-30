@@ -1,0 +1,220 @@
+{
+  "Akhil": {
+    "name": "Akhil",
+    "details": {
+      "location": "bangalore",
+      "hobbies": "cricket",
+      "work_status": "recently started new job",
+      "original_details": "Akhil, lives in Bangalore, loves cricket, just got a new job at TechCorp"
+    },
+    "last_conversation": "Talked about his new job at TechCorp. He's excited about the role and learning new technologies. Mentioned he's settling well in Bangalore.",
+    "last_contact": "2025-06-30 22:30:17",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [
+      {
+        "date": "2025-06-30 22:30:17",
+        "summary": "Talked about his new job at TechCorp. He's excited about the role and learning new technologies. Mentioned he's settling well in Bangalore.",
+        "mood": null,
+        "follow_up": null
+      }
+    ],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "Sarah": {
+    "name": "Sarah",
+    "details": {
+      "hobbies": "hiking and photography",
+      "work": "at google",
+      "has_family": "yes",
+      "original_details": "Sarah, works at Google, has 2 kids, enjoys hiking and photography"
+    },
+    "last_conversation": "Caught up about her kids' school activities. She's planning a family hiking trip next month. Work at Google is going well.",
+    "last_contact": "2025-06-30 22:30:17",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [
+      {
+        "date": "2025-06-30 22:30:17",
+        "summary": "Caught up about her kids' school activities. She's planning a family hiking trip next month. Work at Google is going well.",
+        "mood": null,
+        "follow_up": null
+      }
+    ],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "Mike": {
+    "name": "Mike",
+    "details": {
+      "location": "new york",
+      "hobbies": "photography and coffee",
+      "birthday": "march 15th",
+      "original_details": "Mike, lives in New York, birthday March 15th, loves photography and coffee"
+    },
+    "last_conversation": "Discussed his photography projects. He's working on a coffee shop photo series. Birthday plans are coming together.",
+    "last_contact": "2025-06-30 22:30:17",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [
+      {
+        "date": "2025-06-30 22:30:17",
+        "summary": "Discussed his photography projects. He's working on a coffee shop photo series. Birthday plans are coming together.",
+        "mood": null,
+        "follow_up": null
+      }
+    ],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "Priya": {
+    "name": "Priya",
+    "details": {
+      "location": "mumbai",
+      "hobbies": "cooking and travel",
+      "work": "as a doctor",
+      "original_details": "Priya, lives in Mumbai, works as a doctor, loves cooking and travel"
+    },
+    "last_conversation": "Shared about her recent medical conference. Planning a cooking workshop. Travel plans for summer vacation.",
+    "last_contact": "2025-06-30 22:30:17",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [
+      {
+        "date": "2025-06-30 22:30:17",
+        "summary": "Shared about her recent medical conference. Planning a cooking workshop. Travel plans for summer vacation.",
+        "mood": null,
+        "follow_up": null
+      }
+    ],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "uday": {
+    "name": "uday",
+    "details": {
+      "original_details": "sde on adp"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 22:33:29",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "ud": {
+    "name": "ud",
+    "details": {
+      "original_details": "cricket"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 22:53:00",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "srinivas": {
+    "name": "srinivas",
+    "details": {
+      "original_details": "paris,march 30.cricket"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 22:55:12",
+    "birthday": null,
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "fr": {
+    "name": "fr",
+    "details": {
+      "original_details": "march 4,paris"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 22:59:22",
+    "birthday": "March 4",
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "gi": {
+    "name": "gi",
+    "details": {
+      "original_details": "location:paris,Birthday: March 4",
+      "location": "paris,Birthday: March 4"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 22:59:57",
+    "birthday": "March 4",
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "reg": {
+    "name": "reg",
+    "details": {
+      "original_details": "Birthday: July 28"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 23:00:24",
+    "birthday": "July 28",
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  },
+  "india": {
+    "name": "india",
+    "details": {
+      "original_details": "july 7 is birthday and he loves cricket",
+      "hobbies": "Cricket"
+    },
+    "last_conversation": "",
+    "last_contact": "2025-06-30 23:50:15",
+    "birthday": "July 7",
+    "important_dates": [],
+    "conversation_history": [],
+    "tags": [],
+    "preferred_contact_method": "message",
+    "relationship_strength": 50,
+    "last_met": null,
+    "frequency_preference": "bi-weekly"
+  }
+}
