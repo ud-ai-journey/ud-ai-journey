@@ -1,0 +1,5 @@
+streamlit
+requests
+python-dotenv
+# For email sending via SendGrid SMTP
+# You must set SENDGRID_API_KEY and SENDGRID_FROM_EMAIL in a .env file (never commit .env) 
