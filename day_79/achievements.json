@@ -1,0 +1,14 @@
+{
+  "first_decision": {
+    "name": "First Decision!",
+    "desc": "Logged your first decision.",
+    "date": "2025-07-03T20:19:24.147241",
+    "emoji": "\ud83c\udf89"
+  },
+  "perfect_plan": {
+    "name": "Perfect Plan",
+    "desc": "Completed 100% of an action plan.",
+    "date": "2025-07-03T20:19:24.147241",
+    "emoji": "\ud83c\udfc6"
+  }
+}

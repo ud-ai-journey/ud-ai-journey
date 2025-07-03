@@ -1,0 +1,13 @@
+{
+  "opt_in": true,
+  "frequency": "Daily",
+  "reminders": [
+    {
+      "type": "action_step",
+      "description": "i will see if any one are helpful in linked in",
+      "date": "2025-07-04",
+      "decision": "should i try making new friends to get new opportunities in abroad, if yes how to make it?",
+      "sent": true
+    }
+  ]
+}
