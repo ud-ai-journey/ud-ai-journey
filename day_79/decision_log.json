@@ -1,0 +1,195 @@
+[
+  {
+    "timestamp": "2025-07-03T19:25:20.937574",
+    "dilemma": "Should i go to new country with 5 lakh budget, explore and see if any business plan strikes?",
+    "tone": "Gentle",
+    "values": [
+      "Freedom"
+    ],
+    "emotional_tone": "Excited",
+    "result": {
+      "clarified_decision": "Clarified: Should i go to new country with 5 lakh budget, explore and see if any business plan strikes?",
+      "pros": "Pro 1\nPro 2",
+      "cons": "Con 1\nCon 2",
+      "emotional_read": "User feels Excited",
+      "wisdom": "Reflect on your values.",
+      "recommendation": "Take a small step forward.",
+      "confidence_percent": "80",
+      "emotional_tone": "Excited"
+    },
+    "followup_date": "2025-07-10",
+    "email": ""
+  },
+  {
+    "timestamp": "2025-07-03T19:31:21.177742",
+    "dilemma": "Should i move to a new country with 5 lakhs to gain any sort of opportunity/business idea or should i stay in india and start easy business with 5 lakh investment?\n",
+    "tone": "Gentle",
+    "values": [
+      "Freedom",
+      "Growth",
+      "Stability",
+      "Creativity"
+    ],
+    "emotional_tone": "Excited",
+    "result": {
+      "error": "403 Client Error: Forbidden for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+    },
+    "followup_date": "2025-07-10",
+    "email": "",
+    "language": "en",
+    "provider": "Gemini"
+  },
+  {
+    "timestamp": "2025-07-03T19:32:40.637437",
+    "dilemma": "Should i move to a new country with 5 lakhs to gain any sort of opportunity/business idea or should i stay in india and start easy business with 5 lakh investment?\n",
+    "tone": "Gentle",
+    "values": [
+      "Growth",
+      "Freedom",
+      "Creativity",
+      "Stability",
+      "Relationships"
+    ],
+    "emotional_tone": "Confused",
+    "result": {
+      "clarified_decision": "Okay, it sounds like you're weighing two exciting but different paths: Option A is moving to a new country with 5 lakhs to explore business opportunities, while Option B is staying in India and starting a business with the same investment. You're essentially deciding between the potential of a fresh start in a new land versus the comfort and familiarity of building something at home.",
+      "pros": "{'Move to New Country (Option A)': ['Potentially higher growth opportunities due to a different market and economy (Growth, Freedom)', 'Exposure to new cultures and ideas, fostering creativity and personal growth (Creativity, Growth, Freedom)', 'A chance to redefine yourself and break free from familiar routines (Freedom)', 'May discover unique business opportunities not available in India (Growth, Creativity)'], 'Stay in India (Option B)': ['Lower risk and more predictable environment, offering greater stability (Stability)', 'Stronger support network of friends and family (Relationships)', 'Better understanding of the local market and consumer behavior (Stability)', 'Easier access to resources and partnerships (Stability, Relationships)', 'Less culture shock and adaptation stress (Stability)']}",
+      "cons": "{'Move to New Country (Option A)': ['Higher initial costs of living and setting up a business in a new country (Stability)', 'Cultural adjustment and language barriers (Relationships, Stability)', 'Uncertainty about finding the right business opportunity (Stability)', 'Potential for loneliness and isolation (Relationships)', 'Risk of losing the entire investment if the business fails (Stability)'], 'Stay in India (Option B)': ['Potentially slower growth compared to a new market (Growth)', 'More competition from established businesses (Growth)', 'May feel limited by existing social and economic structures (Freedom)', \"Risk of regret if you always wonder 'what if?' regarding moving abroad (Growth)\"]}",
+      "emotional_read": "You seem confused, which is perfectly understandable given the magnitude of this decision. Both options hold exciting possibilities and inherent risks. It's important to acknowledge that feeling conflicted is a natural part of this process.",
+      "wisdom": "Sometimes, the 'right' choice isn't about picking the objectively better option, but about choosing the path that resonates most deeply with your values and your vision for your future. Consider which path aligns best with your desire for growth, freedom, creativity, stability, and strong relationships, and try to envision what a fulfilling life looks like to you in each scenario. Both paths have the potential to create joy and opportunity.",
+      "recommendation": "Let's try a small experiment. For the next 24 hours, imagine vividly that you've already chosen to move to the new country. Feel the excitement, but also the challenges. Then, for the 24 hours after that, imagine you've decided to stay in India and start your business here. Pay close attention to which scenario brings you a greater sense of peace, excitement, and overall alignment with your values. Journal your thoughts and feelings throughout both days. After the two days, revisit your journal and see if a clearer preference emerges. I think doing that will help reduce your confusion significantly.",
+      "confidence_percent": "75",
+      "emotional_tone": "Confused"
+    },
+    "followup_date": "2025-07-10",
+    "email": "",
+    "language": "en",
+    "provider": "Gemini",
+    "action_plan": [
+      {
+        "description": "go through yt",
+        "done": true,
+        "target_date": ""
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-03T19:33:30.097371",
+    "dilemma": "Should i move to a new country with 5 lakhs to gain any sort of opportunity/business idea or should i stay in india and start easy business with 5 lakh investment?\n",
+    "tone": "Gentle",
+    "values": [
+      "Growth",
+      "Freedom",
+      "Creativity",
+      "Stability",
+      "Relationships"
+    ],
+    "emotional_tone": "Confused",
+    "result": {
+      "clarified_decision": "Okay, it sounds like you're trying to decide whether to move to a new country to explore business opportunities with your 5 lakhs, or to stay in India and start a business here instead. It's a big decision, and feeling confused is completely understandable!",
+      "pros": "{'move_to_new_country': ['Potentially greater opportunities and business ideas.', 'Personal growth through experiencing a new culture and environment.', 'Increased freedom and independence.', 'Exposure to innovative markets and ideas, fueling creativity.'], 'stay_in_india': ['Greater stability and familiarity.', 'Stronger support network of family and friends.', 'Easier access to established business resources and connections.', 'Lower risk associated with a known environment.']}",
+      "cons": "{'move_to_new_country': ['Significant financial risk if business ventures fail.', 'Potential for loneliness and isolation due to lack of established relationships.', 'Culture shock and adjustment difficulties.', 'Uncertainty about regulations, language, and cultural norms impacting business success.'], 'stay_in_india': ['Potentially limited opportunities compared to a new country.', 'Risk of regret for not exploring a potentially more exciting path.', 'Possible stagnation if you crave new experiences and growth.', 'May not foster the same level of creative inspiration as a new environment.']}",
+      "emotional_read": "Given that you describe feeling 'confused,' it seems like you're weighing the possibilities and anxieties of both options. The desire for opportunity is strong, but so is the pull of stability and familiarity. This confusion is stemming from the push and pull between your values of growth/creativity and stability/relationships.",
+      "wisdom": "Sometimes, the biggest leaps are taken when we feel the most uncertain. But it's important to remember that growth isn't solely tied to geographical location. True growth often comes from within, and can be fostered in any environment. Reflect on which path truly resonates with your heart, not just your ambition. Consider what kind of *impact* you want to create, regardless of location. Both options can lead to success and happiness, but the journey will be very different. Which journey feels more authentically *you*?",
+      "recommendation": "Before making a final decision, I recommend spending some time researching specific business opportunities in both locations. Could you identify 2-3 concrete business ideas for each scenario? Research the market, the competition, the required skills, and potential profitability. This practical research will help ground your decision in reality and reduce some of the uncertainty. Once you have solid ideas for BOTH options, compare them. Which specific path, with its specific challenges and rewards, resonates the most with your values and your vision for your life?",
+      "confidence_percent": "70",
+      "emotional_tone": "Anxious"
+    },
+    "followup_date": "2025-07-10",
+    "email": "135uday135@gmail.com",
+    "language": "en",
+    "provider": "Gemini"
+  },
+  {
+    "timestamp": "2025-07-03T19:35:18.329040",
+    "dilemma": "Should i move to a new country with 5 lakhs to gain any sort of opportunity/business idea or should i stay in india and start easy business with 5 lakh investment?\n",
+    "tone": "Direct",
+    "values": [
+      "Stability"
+    ],
+    "emotional_tone": "Confused",
+    "result": {
+      "clarified_decision": "The decision is whether to move to a new country with 5 lakhs to pursue opportunities/business ideas or stay in India and start a business with the same investment.",
+      "pros": "{'move_abroad': ['Potential for significantly higher returns/opportunities if successful.', 'Exposure to new markets, ideas, and ways of doing business.', 'Personal growth and broadening of horizons.'], 'stay_in_india': ['Lower risk due to familiarity with the market and culture.', 'Stronger support network of family and friends.', 'Reduced initial setup costs and logistical challenges.']}",
+      "cons": "{'move_abroad': ['High risk and uncertainty; significant chance of failure and losing the investment.', 'Potential for culture shock and difficulty adapting.', 'Loss of existing support network and increased feelings of isolation.', 'Visa issues and immigration challenges.', 'Higher cost of living in many countries.'], 'stay_in_india': ['Potentially lower returns compared to a successful venture abroad.', 'Increased competition in established markets.', 'May require more effort to differentiate and innovate.']}",
+      "emotional_read": "The user is primarily driven by a desire for stability, but also open to opportunity. The confusion stems from the conflict between these two values. Staying in India offers greater stability, while moving abroad presents a greater risk but potentially a higher reward.",
+      "wisdom": "Consider that stability isn't just about location, it is also about inner resources and resilience. True stability comes from your ability to adapt, learn, and persevere, regardless of your location. Consider which path will help you grow these traits and not just your bank balance.",
+      "recommendation": "Given your values, it's best to thoroughly research the business climate and immigration requirements of your target country. Develop a detailed business plan and network with individuals already living and working there. If after this research you don't feel confident of success (more than 70% certain), start in India.",
+      "confidence_percent": "75",
+      "emotional_tone": "Anxious"
+    },
+    "followup_date": "2025-07-10",
+    "email": "",
+    "language": "en",
+    "provider": "Gemini"
+  },
+  {
+    "timestamp": "2025-07-03T19:39:16.084815",
+    "dilemma": "should i try making new friends to get new opportunities in abroad, if yes how to make it?",
+    "tone": "Direct",
+    "values": [
+      "Relationships"
+    ],
+    "emotional_tone": "Excited",
+    "result": {
+      "clarified_decision": "Should I actively pursue making new friends abroad to open up new opportunities, and if so, how should I approach it?",
+      "pros": "Expanded social network and support system.\nAccess to new perspectives and cultural understanding.\nIncreased opportunities for personal and professional growth.\nPotential for unique experiences and adventures.\nReduced feelings of loneliness and isolation.",
+      "cons": "Potential for rejection or difficulty connecting with others.\nTime commitment and effort required to build relationships.\nRisk of encountering cultural misunderstandings or conflicts.\nPossibility of superficial or unfulfilling connections.\nVulnerability associated with opening up to new people.",
+      "emotional_read": "The user's excitement suggests a generally positive outlook and willingness to embrace new experiences. However, the question also reveals some uncertainty and a need for guidance.",
+      "wisdom": "Cultivating authentic connections requires vulnerability and patience. Focus on shared interests and genuine curiosity about others. Remember that building meaningful relationships takes time and effort, but the rewards can be significant.",
+      "recommendation": "Yes, actively try making new friends abroad. Start by identifying activities or groups related to your interests (e.g., language exchange, sports clubs, professional organizations). Attend events, be approachable, and initiate conversations. Focus on building genuine connections based on shared interests and values.",
+      "confidence_percent": "85",
+      "emotional_tone": "Excited, with a hint of apprehension."
+    },
+    "followup_date": "2025-07-10",
+    "email": "135uday135@gmail.com",
+    "language": "en",
+    "provider": "Gemini",
+    "reflection": "yes it did align with mine",
+    "ai_feedback": "That's fantastic! It sounds like you're taking a really proactive step towards maximizing your experience abroad, and I'm so glad the recommendation resonated with you and your values. The excitement you're feeling is a great indicator that you're on the right track!\n\nBuilding new relationships in a foreign country is incredibly valuable, both personally and professionally. The opportunities that can arise from a new network are boundless. Focusing on shared interests and building genuine connections is key to fostering those lasting, meaningful relationships.\n\nIt's excellent that you're planning to be proactive by joining groups and attending events. Remember to be patient with yourself. Building meaningful connections takes time and effort. Don't get discouraged if you don't instantly click with everyone you meet. Just keep showing up, being yourself, and nurturing the connections that feel right.\n\nOne thing you might want to consider for next time is to **think about *what kind* of opportunities you're hoping to gain from these new friendships.** Are you primarily looking for career advancement? A deeper understanding of the local culture? Companionship? Defining your expectations can help you target your efforts more effectively and make sure you're focusing on building connections that will truly fulfill your needs. It can also help you be more intentional about the kind of support you need from new connections.\n\nKeep that excitement flowing! You've got this! Keep an open mind, be authentic, and enjoy the journey of building new friendships in your new environment. I'm excited to hear about your progress!",
+    "reflection_reminder_set": true,
+    "action_plan": [
+      {
+        "description": "i will see if any one are helpful in linked in",
+        "done": true,
+        "target_date": "2025-07-04",
+        "reminder_sent": true
+      },
+      {
+        "description": "make new friends online",
+        "done": true,
+        "target_date": "2025-07-03"
+      },
+      {
+        "description": "make new friends online & offline",
+        "done": true,
+        "target_date": "2025-07-10"
+      },
+      {
+        "description": "make onsite mates in office",
+        "done": true,
+        "target_date": "2025-07-10"
+      },
+      {
+        "description": "make more friends online and in office",
+        "done": true,
+        "target_date": "2025-07-11"
+      },
+      {
+        "description": "make connections in linkedin",
+        "done": true,
+        "target_date": "2025-07-11"
+      },
+      {
+        "description": "Send DMs to new people online for sharing ideas",
+        "done": true,
+        "target_date": "2025-07-12"
+      },
+      {
+        "description": "make valuable friendships",
+        "done": true,
+        "target_date": "2025-07-22"
+      }
+    ]
+  }
+]
