@@ -1,0 +1,514 @@
+{
+  "cities": [
+    {
+      "name": "New York, NY",
+      "state": "New York",
+      "country": "USA",
+      "coordinates": {"lat": 40.7128, "lng": -74.0060},
+      "population": 8336817,
+      "cost_of_living": {
+        "housing": 4500,
+        "food": 800,
+        "transportation": 300,
+        "healthcare": 600,
+        "entertainment": 400,
+        "utilities": 200,
+        "taxes": 1200,
+        "education": 500
+      },
+      "climate": {
+        "avg_temp_summer": 75,
+        "avg_temp_winter": 35,
+        "rainfall": 50,
+        "snowfall": 25
+      },
+      "culture": {
+        "diversity_score": 95,
+        "arts_score": 90,
+        "nightlife_score": 85,
+        "food_score": 90,
+        "sports_score": 80
+      },
+      "career": {
+        "tech_jobs": 85,
+        "finance_jobs": 90,
+        "healthcare_jobs": 80,
+        "education_jobs": 75,
+        "avg_salary": 75000
+      },
+      "lifestyle": {
+        "walkability": 85,
+        "public_transit": 90,
+        "bike_friendliness": 70,
+        "parks_score": 75,
+        "safety_score": 65
+      },
+      "personality_fit": {
+        "openness": 85,
+        "conscientiousness": 70,
+        "extraversion": 80,
+        "agreeableness": 65,
+        "neuroticism": 60
+      }
+    },
+    {
+      "name": "San Francisco, CA",
+      "state": "California", 
+      "country": "USA",
+      "coordinates": {"lat": 37.7749, "lng": -122.4194},
+      "population": 873965,
+      "cost_of_living": {
+        "housing": 5000,
+        "food": 900,
+        "transportation": 250,
+        "healthcare": 650,
+        "entertainment": 450,
+        "utilities": 180,
+        "taxes": 1300,
+        "education": 600
+      },
+      "climate": {
+        "avg_temp_summer": 65,
+        "avg_temp_winter": 55,
+        "rainfall": 25,
+        "snowfall": 0
+      },
+      "culture": {
+        "diversity_score": 90,
+        "arts_score": 85,
+        "nightlife_score": 80,
+        "food_score": 95,
+        "sports_score": 70
+      },
+      "career": {
+        "tech_jobs": 95,
+        "finance_jobs": 80,
+        "healthcare_jobs": 75,
+        "education_jobs": 70,
+        "avg_salary": 85000
+      },
+      "lifestyle": {
+        "walkability": 90,
+        "public_transit": 85,
+        "bike_friendliness": 85,
+        "parks_score": 80,
+        "safety_score": 70
+      },
+      "personality_fit": {
+        "openness": 90,
+        "conscientiousness": 75,
+        "extraversion": 75,
+        "agreeableness": 70,
+        "neuroticism": 55
+      }
+    },
+    {
+      "name": "Austin, TX",
+      "state": "Texas",
+      "country": "USA", 
+      "coordinates": {"lat": 30.2672, "lng": -97.7431},
+      "population": 978908,
+      "cost_of_living": {
+        "housing": 2800,
+        "food": 600,
+        "transportation": 200,
+        "healthcare": 500,
+        "entertainment": 300,
+        "utilities": 150,
+        "taxes": 800,
+        "education": 400
+      },
+      "climate": {
+        "avg_temp_summer": 85,
+        "avg_temp_winter": 55,
+        "rainfall": 35,
+        "snowfall": 0
+      },
+      "culture": {
+        "diversity_score": 80,
+        "arts_score": 75,
+        "nightlife_score": 85,
+        "food_score": 85,
+        "sports_score": 75
+      },
+      "career": {
+        "tech_jobs": 90,
+        "finance_jobs": 70,
+        "healthcare_jobs": 75,
+        "education_jobs": 70,
+        "avg_salary": 70000
+      },
+      "lifestyle": {
+        "walkability": 70,
+        "public_transit": 60,
+        "bike_friendliness": 80,
+        "parks_score": 85,
+        "safety_score": 75
+      },
+      "personality_fit": {
+        "openness": 80,
+        "conscientiousness": 70,
+        "extraversion": 75,
+        "agreeableness": 75,
+        "neuroticism": 50
+      }
+    },
+    {
+      "name": "Seattle, WA",
+      "state": "Washington",
+      "country": "USA",
+      "coordinates": {"lat": 47.6062, "lng": -122.3321},
+      "population": 744955,
+      "cost_of_living": {
+        "housing": 3500,
+        "food": 700,
+        "transportation": 250,
+        "healthcare": 550,
+        "entertainment": 350,
+        "utilities": 180,
+        "taxes": 900,
+        "education": 450
+      },
+      "climate": {
+        "avg_temp_summer": 70,
+        "avg_temp_winter": 45,
+        "rainfall": 40,
+        "snowfall": 5
+      },
+      "culture": {
+        "diversity_score": 85,
+        "arts_score": 80,
+        "nightlife_score": 75,
+        "food_score": 85,
+        "sports_score": 80
+      },
+      "career": {
+        "tech_jobs": 90,
+        "finance_jobs": 75,
+        "healthcare_jobs": 80,
+        "education_jobs": 75,
+        "avg_salary": 80000
+      },
+      "lifestyle": {
+        "walkability": 75,
+        "public_transit": 80,
+        "bike_friendliness": 85,
+        "parks_score": 90,
+        "safety_score": 80
+      },
+      "personality_fit": {
+        "openness": 85,
+        "conscientiousness": 75,
+        "extraversion": 70,
+        "agreeableness": 80,
+        "neuroticism": 45
+      }
+    },
+    {
+      "name": "Denver, CO",
+      "state": "Colorado",
+      "country": "USA",
+      "coordinates": {"lat": 39.7392, "lng": -104.9903},
+      "population": 727211,
+      "cost_of_living": {
+        "housing": 2800,
+        "food": 650,
+        "transportation": 220,
+        "healthcare": 520,
+        "entertainment": 320,
+        "utilities": 160,
+        "taxes": 850,
+        "education": 420
+      },
+      "climate": {
+        "avg_temp_summer": 75,
+        "avg_temp_winter": 30,
+        "rainfall": 15,
+        "snowfall": 60
+      },
+      "culture": {
+        "diversity_score": 75,
+        "arts_score": 70,
+        "nightlife_score": 75,
+        "food_score": 80,
+        "sports_score": 85
+      },
+      "career": {
+        "tech_jobs": 80,
+        "finance_jobs": 70,
+        "healthcare_jobs": 75,
+        "education_jobs": 70,
+        "avg_salary": 72000
+      },
+      "lifestyle": {
+        "walkability": 70,
+        "public_transit": 65,
+        "bike_friendliness": 80,
+        "parks_score": 85,
+        "safety_score": 75
+      },
+      "personality_fit": {
+        "openness": 80,
+        "conscientiousness": 70,
+        "extraversion": 75,
+        "agreeableness": 75,
+        "neuroticism": 50
+      }
+    },
+    {
+      "name": "Miami, FL",
+      "state": "Florida",
+      "country": "USA",
+      "coordinates": {"lat": 25.7617, "lng": -80.1918},
+      "population": 442241,
+      "cost_of_living": {
+        "housing": 3200,
+        "food": 650,
+        "transportation": 200,
+        "healthcare": 500,
+        "entertainment": 350,
+        "utilities": 180,
+        "taxes": 700,
+        "education": 400
+      },
+      "climate": {
+        "avg_temp_summer": 85,
+        "avg_temp_winter": 70,
+        "rainfall": 60,
+        "snowfall": 0
+      },
+      "culture": {
+        "diversity_score": 90,
+        "arts_score": 75,
+        "nightlife_score": 90,
+        "food_score": 85,
+        "sports_score": 75
+      },
+      "career": {
+        "tech_jobs": 70,
+        "finance_jobs": 75,
+        "healthcare_jobs": 80,
+        "education_jobs": 70,
+        "avg_salary": 65000
+      },
+      "lifestyle": {
+        "walkability": 75,
+        "public_transit": 60,
+        "bike_friendliness": 70,
+        "parks_score": 80,
+        "safety_score": 65
+      },
+      "personality_fit": {
+        "openness": 80,
+        "conscientiousness": 65,
+        "extraversion": 85,
+        "agreeableness": 70,
+        "neuroticism": 55
+      }
+    },
+    {
+      "name": "Chicago, IL",
+      "state": "Illinois",
+      "country": "USA",
+      "coordinates": {"lat": 41.8781, "lng": -87.6298},
+      "population": 2693976,
+      "cost_of_living": {
+        "housing": 2800,
+        "food": 650,
+        "transportation": 250,
+        "healthcare": 550,
+        "entertainment": 350,
+        "utilities": 180,
+        "taxes": 900,
+        "education": 450
+      },
+      "climate": {
+        "avg_temp_summer": 75,
+        "avg_temp_winter": 25,
+        "rainfall": 35,
+        "snowfall": 40
+      },
+      "culture": {
+        "diversity_score": 85,
+        "arts_score": 85,
+        "nightlife_score": 80,
+        "food_score": 90,
+        "sports_score": 85
+      },
+      "career": {
+        "tech_jobs": 80,
+        "finance_jobs": 85,
+        "healthcare_jobs": 80,
+        "education_jobs": 75,
+        "avg_salary": 72000
+      },
+      "lifestyle": {
+        "walkability": 80,
+        "public_transit": 85,
+        "bike_friendliness": 75,
+        "parks_score": 80,
+        "safety_score": 70
+      },
+      "personality_fit": {
+        "openness": 80,
+        "conscientiousness": 75,
+        "extraversion": 75,
+        "agreeableness": 75,
+        "neuroticism": 60
+      }
+    },
+    {
+      "name": "Boston, MA",
+      "state": "Massachusetts",
+      "country": "USA",
+      "coordinates": {"lat": 42.3601, "lng": -71.0589},
+      "population": 675647,
+      "cost_of_living": {
+        "housing": 3500,
+        "food": 700,
+        "transportation": 250,
+        "healthcare": 600,
+        "entertainment": 350,
+        "utilities": 200,
+        "taxes": 1000,
+        "education": 500
+      },
+      "climate": {
+        "avg_temp_summer": 75,
+        "avg_temp_winter": 30,
+        "rainfall": 45,
+        "snowfall": 50
+      },
+      "culture": {
+        "diversity_score": 80,
+        "arts_score": 85,
+        "nightlife_score": 75,
+        "food_score": 85,
+        "sports_score": 85
+      },
+      "career": {
+        "tech_jobs": 85,
+        "finance_jobs": 80,
+        "healthcare_jobs": 85,
+        "education_jobs": 85,
+        "avg_salary": 78000
+      },
+      "lifestyle": {
+        "walkability": 85,
+        "public_transit": 80,
+        "bike_friendliness": 75,
+        "parks_score": 75,
+        "safety_score": 75
+      },
+      "personality_fit": {
+        "openness": 85,
+        "conscientiousness": 80,
+        "extraversion": 70,
+        "agreeableness": 75,
+        "neuroticism": 55
+      }
+    },
+    {
+      "name": "Portland, OR",
+      "state": "Oregon",
+      "country": "USA",
+      "coordinates": {"lat": 45.5152, "lng": -122.6784},
+      "population": 652503,
+      "cost_of_living": {
+        "housing": 2500,
+        "food": 600,
+        "transportation": 200,
+        "healthcare": 500,
+        "entertainment": 300,
+        "utilities": 150,
+        "taxes": 800,
+        "education": 400
+      },
+      "climate": {
+        "avg_temp_summer": 70,
+        "avg_temp_winter": 45,
+        "rainfall": 45,
+        "snowfall": 5
+      },
+      "culture": {
+        "diversity_score": 80,
+        "arts_score": 80,
+        "nightlife_score": 75,
+        "food_score": 85,
+        "sports_score": 70
+      },
+      "career": {
+        "tech_jobs": 75,
+        "finance_jobs": 65,
+        "healthcare_jobs": 75,
+        "education_jobs": 70,
+        "avg_salary": 68000
+      },
+      "lifestyle": {
+        "walkability": 80,
+        "public_transit": 75,
+        "bike_friendliness": 90,
+        "parks_score": 85,
+        "safety_score": 75
+      },
+      "personality_fit": {
+        "openness": 85,
+        "conscientiousness": 70,
+        "extraversion": 70,
+        "agreeableness": 80,
+        "neuroticism": 45
+      }
+    },
+    {
+      "name": "Nashville, TN",
+      "state": "Tennessee",
+      "country": "USA",
+      "coordinates": {"lat": 36.1627, "lng": -86.7816},
+      "population": 689447,
+      "cost_of_living": {
+        "housing": 2000,
+        "food": 550,
+        "transportation": 180,
+        "healthcare": 450,
+        "entertainment": 250,
+        "utilities": 140,
+        "taxes": 600,
+        "education": 350
+      },
+      "climate": {
+        "avg_temp_summer": 80,
+        "avg_temp_winter": 40,
+        "rainfall": 50,
+        "snowfall": 5
+      },
+      "culture": {
+        "diversity_score": 70,
+        "arts_score": 75,
+        "nightlife_score": 80,
+        "food_score": 80,
+        "sports_score": 75
+      },
+      "career": {
+        "tech_jobs": 70,
+        "finance_jobs": 65,
+        "healthcare_jobs": 80,
+        "education_jobs": 70,
+        "avg_salary": 62000
+      },
+      "lifestyle": {
+        "walkability": 65,
+        "public_transit": 50,
+        "bike_friendliness": 70,
+        "parks_score": 75,
+        "safety_score": 70
+      },
+      "personality_fit": {
+        "openness": 75,
+        "conscientiousness": 70,
+        "extraversion": 80,
+        "agreeableness": 80,
+        "neuroticism": 50
+      }
+    }
+  ]
+} 

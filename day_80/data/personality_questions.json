@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do you prefer to spend your weekends?",
+      "options": [
+        "Outdoor activities and adventures",
+        "Cultural events and museums",
+        "Relaxing at home",
+        "Social gatherings with friends"
+      ],
+      "personality_mapping": {
+        "outdoor": {"openness": 3, "extraversion": 2},
+        "cultural": {"openness": 4, "conscientiousness": 1},
+        "relaxing": {"introversion": 3, "neuroticism": -1},
+        "social": {"extraversion": 4, "agreeableness": 2}
+      }
+    },
+    {
+      "id": 2,
+      "question": "What's your ideal work environment?",
+      "options": [
+        "Fast-paced startup with lots of change",
+        "Structured corporate environment",
+        "Remote work with flexibility",
+        "Collaborative team environment"
+      ],
+      "personality_mapping": {
+        "startup": {"openness": 4, "extraversion": 2, "neuroticism": 1},
+        "corporate": {"conscientiousness": 4, "agreeableness": 1},
+        "remote": {"introversion": 3, "conscientiousness": 2},
+        "collaborative": {"extraversion": 3, "agreeableness": 3}
+      }
+    },
+    {
+      "id": 3,
+      "question": "How do you handle stress?",
+      "options": [
+        "I thrive under pressure",
+        "I plan and organize to avoid stress",
+        "I need quiet time to recharge",
+        "I talk to friends and family"
+      ],
+      "personality_mapping": {
+        "thrive": {"extraversion": 2, "neuroticism": -2},
+        "plan": {"conscientiousness": 4, "neuroticism": -1},
+        "recharge": {"introversion": 3, "neuroticism": 1},
+        "talk": {"extraversion": 3, "agreeableness": 2}
+      }
+    },
+    {
+      "id": 4,
+      "question": "What's most important to you in a city?",
+      "options": [
+        "Career opportunities and networking",
+        "Cultural diversity and arts scene",
+        "Safety and family-friendly environment",
+        "Outdoor recreation and nature"
+      ],
+      "personality_mapping": {
+        "career": {"conscientiousness": 3, "extraversion": 2},
+        "culture": {"openness": 4, "agreeableness": 1},
+        "safety": {"conscientiousness": 3, "neuroticism": -2},
+        "outdoor": {"openness": 3, "extraversion": 1}
+      }
+    },
+    {
+      "id": 5,
+      "question": "How do you prefer to commute?",
+      "options": [
+        "Walking or biking",
+        "Public transportation",
+        "Driving my own car",
+        "Remote work when possible"
+      ],
+      "personality_mapping": {
+        "walking": {"openness": 2, "conscientiousness": 1},
+        "public": {"openness": 2, "extraversion": 1},
+        "driving": {"conscientiousness": 2, "introversion": 1},
+        "remote": {"introversion": 3, "conscientiousness": 2}
+      }
+    },
+    {
+      "id": 6,
+      "question": "What's your ideal climate?",
+      "options": [
+        "Warm and sunny year-round",
+        "Four distinct seasons",
+        "Mild temperatures with some rain",
+        "I can adapt to any climate"
+      ],
+      "personality_mapping": {
+        "warm": {"extraversion": 2, "openness": 1},
+        "seasons": {"openness": 2, "conscientiousness": 1},
+        "mild": {"agreeableness": 2, "neuroticism": -1},
+        "adapt": {"openness": 3, "neuroticism": -1}
+      }
+    },
+    {
+      "id": 7,
+      "question": "How do you make decisions?",
+      "options": [
+        "I research thoroughly and analyze data",
+        "I trust my gut feeling",
+        "I consult with others",
+        "I consider long-term consequences"
+      ],
+      "personality_mapping": {
+        "research": {"conscientiousness": 4, "openness": 2},
+        "gut": {"extraversion": 2, "neuroticism": 1},
+        "consult": {"extraversion": 3, "agreeableness": 3},
+        "long-term": {"conscientiousness": 3, "neuroticism": -1}
+      }
+    },
+    {
+      "id": 8,
+      "question": "What's your social preference?",
+      "options": [
+        "Large social circles and networking",
+        "Close-knit group of friends",
+        "Quality time with family",
+        "Solitude and personal space"
+      ],
+      "personality_mapping": {
+        "large": {"extraversion": 4, "openness": 2},
+        "close": {"agreeableness": 3, "extraversion": 2},
+        "family": {"agreeableness": 4, "conscientiousness": 2},
+        "solitude": {"introversion": 4, "neuroticism": 1}
+      }
+    },
+    {
+      "id": 9,
+      "question": "How do you handle change?",
+      "options": [
+        "I embrace new opportunities",
+        "I need time to adjust",
+        "I prefer stability and routine",
+        "I adapt quickly to new situations"
+      ],
+      "personality_mapping": {
+        "embrace": {"openness": 4, "extraversion": 2},
+        "adjust": {"neuroticism": 2, "introversion": 1},
+        "stability": {"conscientiousness": 3, "neuroticism": -1},
+        "adapt": {"openness": 3, "neuroticism": -1}
+      }
+    },
+    {
+      "id": 10,
+      "question": "What motivates you most?",
+      "options": [
+        "Achievement and recognition",
+        "Helping others and community",
+        "Personal growth and learning",
+        "Financial security and stability"
+      ],
+      "personality_mapping": {
+        "achievement": {"conscientiousness": 3, "extraversion": 2},
+        "helping": {"agreeableness": 4, "extraversion": 2},
+        "growth": {"openness": 4, "conscientiousness": 2},
+        "security": {"conscientiousness": 3, "neuroticism": -1}
+      }
+    },
+    {
+      "id": 11,
+      "question": "How do you prefer to spend free time?",
+      "options": [
+        "Trying new restaurants and experiences",
+        "Reading and intellectual pursuits",
+        "Exercise and physical activities",
+        "Creative hobbies and arts"
+      ],
+      "personality_mapping": {
+        "restaurants": {"extraversion": 3, "openness": 2},
+        "reading": {"openness": 3, "introversion": 2},
+        "exercise": {"conscientiousness": 2, "extraversion": 1},
+        "creative": {"openness": 4, "introversion": 1}
+      }
+    },
+    {
+      "id": 12,
+      "question": "What's your communication style?",
+      "options": [
+        "Direct and straightforward",
+        "Diplomatic and considerate",
+        "Thoughtful and analytical",
+        "Enthusiastic and expressive"
+      ],
+      "personality_mapping": {
+        "direct": {"extraversion": 2, "agreeableness": -1},
+        "diplomatic": {"agreeableness": 4, "conscientiousness": 2},
+        "analytical": {"openness": 3, "introversion": 2},
+        "expressive": {"extraversion": 4, "openness": 2}
+      }
+    },
+    {
+      "id": 13,
+      "question": "How do you handle conflict?",
+      "options": [
+        "I address issues directly",
+        "I seek compromise and harmony",
+        "I need time to process",
+        "I avoid confrontation"
+      ],
+      "personality_mapping": {
+        "direct": {"extraversion": 2, "neuroticism": -1},
+        "compromise": {"agreeableness": 4, "extraversion": 1},
+        "process": {"introversion": 3, "neuroticism": 1},
+        "avoid": {"agreeableness": 2, "neuroticism": 2}
+      }
+    },
+    {
+      "id": 14,
+      "question": "What's your ideal living situation?",
+      "options": [
+        "Urban apartment in the city center",
+        "Suburban home with yard",
+        "Rural or small town setting",
+        "Co-living or shared housing"
+      ],
+      "personality_mapping": {
+        "urban": {"extraversion": 3, "openness": 2},
+        "suburban": {"conscientiousness": 3, "agreeableness": 2},
+        "rural": {"introversion": 3, "openness": 1},
+        "co-living": {"extraversion": 4, "agreeableness": 3}
+      }
+    },
+    {
+      "id": 15,
+      "question": "How do you approach new challenges?",
+      "options": [
+        "I dive in headfirst",
+        "I plan and prepare thoroughly",
+        "I seek advice from others",
+        "I take time to understand first"
+      ],
+      "personality_mapping": {
+        "dive": {"extraversion": 3, "openness": 2},
+        "plan": {"conscientiousness": 4, "neuroticism": -1},
+        "advice": {"agreeableness": 3, "extraversion": 2},
+        "understand": {"openness": 3, "introversion": 2}
+      }
+    }
+  ]
+} 
