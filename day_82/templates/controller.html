@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controller - {{ room.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/controller.css') }}">
+</head>
+<body>
+    <div class="controller-layout">
+        <header class="header">
+            <div class="header-content">
+                <h1>{{ room.title }}</h1>
+                <div class="room-info">
+                    <span class="room-id">Room: {{ room.id[:8] }}...</span>
+                    <div class="connection-status" id="connectionStatus">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Connecting...</span>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav-tabs">
+                <button class="tab-btn active" data-tab="timers">Timers</button>
+                <button class="tab-btn" data-tab="messages">Messages</button>
+                <button class="tab-btn" data-tab="devices">Devices</button>
+                <button class="tab-btn" data-tab="settings">Settings</button>
+            </nav>
+        </header>
+        
+        <main class="main-content">
+            <!-- Timers Tab -->
+            <div class="tab-content active" id="timers-tab">
+                <div class="timers-header">
+                    <h2>Timer Management</h2>
+                    <button class="btn-primary" id="createTimerBtn">Create Timer</button>
+                </div>
+                
+                <div class="timers-grid" id="timersGrid">
+                    <!-- Timers will be dynamically added here -->
+                </div>
+                
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-buttons">
+                        <button class="btn-secondary" onclick="startAllTimers()">Start All</button>
+                        <button class="btn-secondary" onclick="stopAllTimers()">Stop All</button>
+                        <button class="btn-secondary" onclick="resetAllTimers()">Reset All</button>
+                        <button class="btn-secondary" onclick="addTimeToAll(60)">+1 Min All</button>
+                        <button class="btn-secondary" onclick="addTimeToAll(-60)">-1 Min All</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Messages Tab -->
+            <div class="tab-content" id="messages-tab">
+                <div class="messages-header">
+                    <h2>Display Messages</h2>
+                    <button class="btn-primary" id="sendMessageBtn">Send Message</button>
+                </div>
+                
+                <div class="message-form">
+                    <div class="form-group">
+                        <label for="messageContent">Message</label>
+                        <textarea id="messageContent" placeholder="Enter message to display on viewer screens..."></textarea>
+                    </div>
+                    
+                    <div class="message-options">
+                        <div class="form-group">
+                            <label for="messageColor">Color</label>
+                            <input type="color" id="messageColor" value="#ffffff">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="messageBold"> Bold
+                            </label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="messageUppercase"> Uppercase
+                            </label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="messageFlashing"> Flashing
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary" onclick="sendMessage()">Send Message</button>
+                </div>
+                
+                <div class="quick-messages">
+                    <h3>Quick Messages</h3>
+                    <div class="quick-message-buttons">
+                        <button class="btn-secondary" onclick="sendQuickMessage('5 minutes remaining', '#ff6b6b')">5 Min Left</button>
+                        <button class="btn-secondary" onclick="sendQuickMessage('1 minute remaining', '#ff6b6b')">1 Min Left</button>
+                        <button class="btn-secondary" onclick="sendQuickMessage('Time is up!', '#ff6b6b')">Time Up</button>
+                        <button class="btn-secondary" onclick="sendQuickMessage('Please wrap up', '#ffa726')">Wrap Up</button>
+                        <button class="btn-secondary" onclick="sendQuickMessage('Thank you!', '#66bb6a')">Thank You</button>
+                        <button class="btn-secondary" onclick="sendQuickMessage('', '#ffffff')">Clear</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Devices Tab -->
+            <div class="tab-content" id="devices-tab">
+                <div class="devices-header">
+                    <h2>Connected Devices</h2>
+                    <button class="btn-secondary" onclick="refreshDevices()">Refresh</button>
+                </div>
+                
+                <div class="devices-list" id="devicesList">
+                    <!-- Devices will be dynamically added here -->
+                </div>
+            </div>
+            
+            <!-- Settings Tab -->
+            <div class="tab-content" id="settings-tab">
+                <div class="settings-header">
+                    <h2>Room Settings</h2>
+                </div>
+                
+                <div class="settings-content">
+                    <div class="setting-group">
+                        <h3>Room Information</h3>
+                        <p><strong>Room ID:</strong> {{ room.id }}</p>
+                        <p><strong>Created:</strong> {{ room.created_at }}</p>
+                        <p><strong>Connected Devices:</strong> <span id="deviceCount">0</span></p>
+                    </div>
+                    
+                    <div class="setting-group">
+                        <h3>Share Links</h3>
+                        <div class="share-links">
+                            <div class="share-link">
+                                <label>Controller:</label>
+                                <input type="text" readonly value="{{ request.url }}" onclick="this.select()">
+                            </div>
+                            <div class="share-link">
+                                <label>Viewer:</label>
+                                <input type="text" readonly value="{{ request.url.replace('/controller/', '/viewer/') }}" onclick="this.select()">
+                            </div>
+                            <div class="share-link">
+                                <label>Agenda:</label>
+                                <input type="text" readonly value="{{ request.url.replace('/controller/', '/agenda/') }}" onclick="this.select()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Create Timer Modal -->
+    <div class="modal" id="createTimerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create New Timer</h3>
+                <button class="modal-close" onclick="closeModal('createTimerModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="timerTitle">Timer Title</label>
+                    <input type="text" id="timerTitle" placeholder="e.g., Opening Remarks">
+                </div>
+                
+                <div class="form-group">
+                    <label for="timerDuration">Duration (minutes)</label>
+                    <input type="number" id="timerDuration" min="1" value="5">
+                </div>
+                
+                <div class="form-group">
+                    <label for="timerType">Timer Type</label>
+                    <select id="timerType">
+                        <option value="countdown">Countdown</option>
+                        <option value="countup">Count Up</option>
+                        <option value="clock">Clock</option>
+                        <option value="hidden">Hidden</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="wrapUpYellow">Yellow Warning (seconds)</label>
+                    <input type="number" id="wrapUpYellow" min="0" value="60">
+                </div>
+                
+                <div class="form-group">
+                    <label for="wrapUpRed">Red Warning (seconds)</label>
+                    <input type="number" id="wrapUpRed" min="0" value="30">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="closeModal('createTimerModal')">Cancel</button>
+                <button class="btn-primary" onclick="createTimer()">Create Timer</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', path='/js/controller.js') }}"></script>
+</body>
+</html> 

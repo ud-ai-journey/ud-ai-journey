@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - {{ room.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/agenda.css') }}">
+</head>
+<body>
+    <div class="agenda-layout">
+        <header class="agenda-header">
+            <div class="header-content">
+                <h1>{{ room.title }}</h1>
+                <div class="event-info">
+                    <span class="event-date" id="eventDate">{{ room.created_at }}</span>
+                    <div class="connection-status" id="connectionStatus">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Live</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main class="agenda-content">
+            <div class="agenda-section">
+                <h2>Event Schedule</h2>
+                <div class="agenda-timeline" id="agendaTimeline">
+                    <!-- Agenda items will be dynamically added here -->
+                    <div class="no-agenda">
+                        <p>No agenda items have been created yet.</p>
+                        <p>Check back later for the event schedule.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="current-section">
+                <h3>Currently Active</h3>
+                <div class="current-timer" id="currentTimer">
+                    <div class="timer-info">
+                        <div class="timer-title" id="currentTimerTitle">No active timer</div>
+                        <div class="timer-time" id="currentTimerTime">--:--</div>
+                    </div>
+                    <div class="timer-progress">
+                        <div class="progress-bar" id="currentProgressBar"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="upcoming-section">
+                <h3>Up Next</h3>
+                <div class="upcoming-timers" id="upcomingTimers">
+                    <!-- Upcoming timers will be listed here -->
+                </div>
+            </div>
+        </main>
+        
+        <aside class="agenda-sidebar">
+            <div class="sidebar-section">
+                <h3>Event Progress</h3>
+                <div class="progress-overview">
+                    <div class="progress-item">
+                        <span class="progress-label">Completed</span>
+                        <span class="progress-value" id="completedCount">0</span>
+                    </div>
+                    <div class="progress-item">
+                        <span class="progress-label">Remaining</span>
+                        <span class="progress-value" id="remainingCount">0</span>
+                    </div>
+                    <div class="progress-item">
+                        <span class="progress-label">Total Time</span>
+                        <span class="progress-value" id="totalTime">0:00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Quick Links</h3>
+                <div class="quick-links">
+                    <a href="{{ request.url.replace('/agenda/', '/viewer/') }}" class="quick-link">
+                        <span>📺</span>
+                        <span>Timer Display</span>
+                    </a>
+                    <a href="{{ request.url.replace('/agenda/', '/controller/') }}" class="quick-link">
+                        <span>🎛️</span>
+                        <span>Controller</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Connected Devices</h3>
+                <div class="device-list" id="deviceList">
+                    <!-- Connected devices will be listed here -->
+                </div>
+            </div>
+        </aside>
+    </div>
+    
+    <script src="{{ url_for('static', path='/js/agenda.js') }}"></script>
+</body>
+</html> 

@@ -1,0 +1,423 @@
+/* Controller Layout */
+.controller-layout {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.header {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.header-content h1 {
+    margin: 0;
+    color: #333;
+}
+
+.room-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+.room-id {
+    color: #6c757d;
+    font-family: monospace;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+    display: flex;
+    background: white;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #6c757d;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-btn:hover {
+    color: #667eea;
+    background-color: #f8f9fa;
+}
+
+.tab-btn.active {
+    color: #667eea;
+    border-bottom-color: #667eea;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Timers Tab */
+.timers-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.timers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.timer-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.timer-card:hover {
+    transform: translateY(-2px);
+}
+
+.timer-card.active {
+    border: 2px solid #667eea;
+}
+
+.timer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.timer-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.timer-type {
+    font-size: 0.875rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.timer-display {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.timer-time {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: #333;
+}
+
+.timer-time.warning-yellow {
+    color: #ffc107;
+}
+
+.timer-time.warning-red {
+    color: #dc3545;
+    animation: pulse 1s infinite;
+}
+
+.timer-progress {
+    width: 100%;
+    height: 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #667eea;
+    transition: width 0.3s ease;
+}
+
+.progress-bar.warning-yellow {
+    background-color: #ffc107;
+}
+
+.progress-bar.warning-red {
+    background-color: #dc3545;
+}
+
+.timer-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.timer-controls button {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.timer-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.timer-actions button {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Quick Actions */
+.quick-actions {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* Messages Tab */
+.messages-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.message-form {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.message-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.quick-messages {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quick-messages h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.quick-message-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.quick-message-buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+/* Devices Tab */
+.devices-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.devices-list {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.device-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.device-item:last-child {
+    border-bottom: none;
+}
+
+.device-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.device-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.device-type {
+    font-size: 0.875rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.device-status {
+    font-size: 0.875rem;
+    color: #28a745;
+}
+
+/* Settings Tab */
+.settings-header {
+    margin-bottom: 2rem;
+}
+
+.settings-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.setting-group {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.setting-group h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.setting-group p {
+    margin-bottom: 0.5rem;
+    color: #6c757d;
+}
+
+.share-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.share-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.share-link label {
+    font-weight: 500;
+    color: #333;
+}
+
+.share-link input {
+    font-family: monospace;
+    font-size: 0.875rem;
+    background-color: #f8f9fa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .nav-tabs {
+        overflow-x: auto;
+    }
+    
+    .tab-btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+        white-space: nowrap;
+    }
+    
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .timers-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .message-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .quick-message-buttons {
+        flex-direction: column;
+    }
+    
+    .settings-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .timer-controls,
+    .timer-actions {
+        flex-direction: column;
+    }
+    
+    .device-item {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+} 

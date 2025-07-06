@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewer - {{ room.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/common.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/viewer.css') }}">
+</head>
+<body>
+    <div class="viewer-layout">
+        <!-- Header with room info -->
+        <header class="viewer-header">
+            <div class="room-title">{{ room.title }}</div>
+            <div class="connection-status" id="connectionStatus">
+                <span class="status-dot"></span>
+                <span class="status-text">Connecting...</span>
+            </div>
+        </header>
+        
+        <!-- Main timer display -->
+        <main class="timer-display">
+            <div class="timer-container" id="timerContainer">
+                <div class="timer-title" id="timerTitle">No Active Timer</div>
+                <div class="timer-time" id="timerTime">--:--</div>
+                <div class="timer-progress" id="timerProgress">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Message display -->
+        <div class="message-display" id="messageDisplay">
+            <div class="message-content" id="messageContent"></div>
+        </div>
+        
+        <!-- Control panel (hidden by default) -->
+        <div class="control-panel" id="controlPanel">
+            <div class="panel-header">
+                <h3>Timer Controls</h3>
+                <button class="panel-close" onclick="toggleControlPanel()">&times;</button>
+            </div>
+            <div class="panel-content">
+                <div class="timer-list" id="timerList">
+                    <!-- Active timers will be listed here -->
+                </div>
+                <div class="quick-controls">
+                    <button class="btn-secondary" onclick="requestFullscreen()">Fullscreen</button>
+                    <button class="btn-secondary" onclick="toggleBlackout()">Blackout</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Fullscreen overlay -->
+        <div class="fullscreen-overlay" id="fullscreenOverlay">
+            <div class="fullscreen-timer">
+                <div class="fullscreen-title" id="fullscreenTitle">No Active Timer</div>
+                <div class="fullscreen-time" id="fullscreenTime">--:--</div>
+                <div class="fullscreen-message" id="fullscreenMessage"></div>
+            </div>
+        </div>
+        
+        <!-- Blackout overlay -->
+        <div class="blackout-overlay" id="blackoutOverlay"></div>
+        
+        <!-- Floating controls -->
+        <div class="floating-controls">
+            <button class="floating-btn" onclick="toggleControlPanel()" title="Show Controls">
+                <span>⚙️</span>
+            </button>
+            <button class="floating-btn" onclick="requestFullscreen()" title="Fullscreen">
+                <span>⛶</span>
+            </button>
+            <button class="floating-btn" onclick="toggleBlackout()" title="Blackout">
+                <span>⬛</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', path='/js/viewer.js') }}"></script>
+</body>
+</html> 
