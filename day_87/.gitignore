@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Test output
+*.out
+*.test
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Sensitive files for Email Auto-Reply AI Assistant
+day_87/credentials.json
+day_87/token.json
+day_87/.env
+
+# General sensitive files
+credentials.json
+token.json 
