@@ -1,0 +1,51 @@
+[
+  {
+    "word": "apple",
+    "pronunciation": "\u02c8\u00e6p\u0259l",
+    "date": "2025-01-13",
+    "audio_file": "audio_apple_20250113_120000.mp3",
+    "confidence": 0.95
+  },
+  {
+    "word": "car",
+    "pronunciation": "k\u0251\u02d0r",
+    "date": "2025-01-13",
+    "audio_file": "audio_car_20250113_120100.mp3",
+    "confidence": 0.88
+  },
+  {
+    "word": "book",
+    "pronunciation": "b\u028ak",
+    "date": "2025-01-13",
+    "audio_file": "audio_book_20250113_120200.mp3",
+    "confidence": 0.92
+  },
+  {
+    "word": "phone",
+    "pronunciation": "fo\u028an",
+    "date": "2025-01-13",
+    "audio_file": "audio_phone_20250113_120300.mp3",
+    "confidence": 0.87
+  },
+  {
+    "word": "laptop",
+    "pronunciation": "\u02c8l\u00e6pt\u0252p",
+    "date": "2025-01-13",
+    "audio_file": "audio_laptop_20250113_120400.mp3",
+    "confidence": 0.91
+  },
+  {
+    "word": "person",
+    "pronunciation": "\u02c8p\u0259rs\u0259n",
+    "date": "2025-07-13",
+    "audio_file": "audio_person_en_20250713_220128.mp3",
+    "confidence": 0.8888048529624939
+  },
+  {
+    "word": "airplane",
+    "pronunciation": "\u02c8\u025br\u02ccple\u026an",
+    "date": "2025-07-13",
+    "audio_file": "audio_airplane_en_20250713_220239.mp3",
+    "confidence": 0.8479447364807129
+  }
+]

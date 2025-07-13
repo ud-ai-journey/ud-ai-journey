@@ -1,0 +1,16 @@
+[
+  {
+    "word": "chair",
+    "pronunciation": "\u02a7\u025br",
+    "date": "2025-07-13",
+    "audio": "temp\\audio\\chair_en_1752424230.mp3",
+    "confidence": 0.948767900466919
+  },
+  {
+    "word": "vase",
+    "pronunciation": "v\u0251z",
+    "date": "2025-07-13",
+    "audio": "temp\\audio\\vase_en_1752424231.mp3",
+    "confidence": 0.7071205973625183
+  }
+]
