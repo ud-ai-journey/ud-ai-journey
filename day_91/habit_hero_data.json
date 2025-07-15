@@ -1,0 +1,21 @@
+{
+  "habits": [
+    "Brush teeth",
+    "Read a book",
+    "Help at home",
+    "Drink water",
+    "Exercise"
+  ],
+  "progress": {
+    "Brush teeth": [
+      "2025-07-15"
+    ],
+    "Read a book": [],
+    "Help at home": [],
+    "Drink water": [
+      "2025-07-15"
+    ],
+    "Exercise": []
+  },
+  "rewards": {}
+}

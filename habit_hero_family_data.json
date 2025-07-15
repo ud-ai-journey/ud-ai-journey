@@ -1,0 +1,12 @@
+{
+  "kids": {
+    "uday": {
+      "assigned_habits": [
+        "Try a new vegetable  [Health]",
+        "Eat vegetables  [Health]",
+        "Go to bed on time  [Health]"
+      ],
+      "progress": {}
+    }
+  }
+}
