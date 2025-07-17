@@ -3,11 +3,13 @@ import requests
 from dotenv import load_dotenv
 
 class AIHelper:
-    def __init__(self, model=None):
+    def __init__(self):
         load_dotenv()
-        self.api_key = os.getenv('GROQ_API_KEY', 'REMOVED_SECRET ')
+        self.api_key = os.getenv('GROQ_API_KEY')
+        if not self.api_key:
+            raise ValueError("GROQ_API_KEY not found in environment variables. Please set it in your .env file.")
         self.api_url = 'https://api.groq.com/openai/v1/chat/completions'
-        self.model = model or 'llama3-8b-8192'  # Default model
+        self.model = 'llama3-8b-8192'  # You can change to another Groq-supported model if needed
 
     def set_model(self, model_name):
         self.model = model_name
