@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# Data and exports
+data/
+memoryvault_export.md
+memoryvault_export.pdf
+memoryvault_entries.csv
+memoryvault_flashcards.csv
+
+# VSCode
+.vscode/
