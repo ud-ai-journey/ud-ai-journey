@@ -1,3 +1,9 @@
+# Allow example images for README
+!day_94/memory_lane_collage.png
+!day_94/memory_lane_carousel.gif
+!day_94/memory_lane_story.pdf 
+!day_94/image.png 
+
 .env 
 __pycache__/
 *.pyc

@@ -46,10 +46,18 @@ Turn your photos and memories into narrated, shareable stories with AI! Upload u
 7. Download your story as PDF or audio, and revisit past stories below.
 
 ## 🖼️ Example Output
-- Collage and animated GIF of your images
-- AI-generated story and title
+- Collage and animated GIF of your images:
+  
+  ![Collage Example](memory_lane_collage.png)
+  
+  ![Animated Carousel](memory_lane_carousel.gif)
+- AI-generated story and title:
+  
+  ![Story Example](image.png)
 - Social captions for Instagram, LinkedIn, X
-- Downloadable PDF and MP3 narration
+- Downloadable PDF and MP3 narration:
+  
+  [Download Example PDF](memory_lane_story.pdf)
 
 ## 💡 Why It Matters
 - **Emotional Impact:** Helps families, kids, and seniors relive and share memories in a creative, AI-powered way.
