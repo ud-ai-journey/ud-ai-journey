@@ -1,0 +1,8 @@
+streamlit
+gtts
+pyttsx3
+Pillow
+torch
+ultralytics
+openai
+fpdf 
