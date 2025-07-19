@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StageTimer Pro - Enterprise Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing-page" class="page active">
+        <div class="landing-container">
+            <div class="landing-header">
+                <h1>StageTimer Pro</h1>
+                <p>Professional countdown timer for presentations, events, and meetings</p>
+            </div>
+            <div class="landing-actions">
+                <button class="btn btn--primary btn--lg" id="create-room-btn">
+                    Create New Room
+                </button>
+                <div class="join-room-form">
+                    <input type="text" class="form-control" id="room-id-input" placeholder="Enter Room ID (e.g., ABC123XY)" maxlength="8">
+                    <button class="btn btn--outline btn--lg" id="join-room-btn">
+                        Join Room
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controller Interface -->
+    <div id="controller-page" class="page">
+        <div class="controller-layout">
+            <!-- Header -->
+            <div class="controller-header">
+                <div class="room-info">
+                    <div class="room-id-display">
+                        <span class="label">Room ID:</span>
+                        <span class="room-id" id="room-id-display">ABC123XY</span>
+                        <button class="btn btn--sm" id="copy-link-btn" title="Copy viewer link">
+                            📋 Copy Link
+                        </button>
+                    </div>
+                    <div class="connection-status">
+                        <span class="connection-indicator connected"></span>
+                        <span id="viewer-count">3 viewers connected</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn--outline btn--sm" id="settings-btn">⚙️ Settings</button>
+                    <button class="btn btn--outline btn--sm" id="fullscreen-viewer-btn">🖥️ Viewer</button>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="controller-content">
+                <!-- Left Panel - Timer Controls -->
+                <div class="left-panel">
+                    <div class="panel-header">
+                        <h3>Timer Controls</h3>
+                        <button class="btn btn--primary btn--sm" id="add-timer-btn">+ Add Timer</button>
+                    </div>
+                    <div class="timer-list" id="timer-list">
+                        <!-- Timer items will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Center Panel - Main Display Preview -->
+                <div class="center-panel">
+                    <div class="panel-header">
+                        <h3>Viewer Display Preview</h3>
+                    </div>
+                    <div class="main-display-preview">
+                        <div class="timer-display" id="main-timer-display">
+                            <div class="timer-name" id="preview-timer-name">Select a timer</div>
+                            <div class="timer-time" id="preview-timer-time">--:--</div>
+                            <div class="timer-status" id="preview-timer-status">No active timer</div>
+                        </div>
+                        <div class="message-overlay" id="preview-message-overlay" style="display: none;">
+                            <div class="message-content" id="preview-message-content"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel - Messaging -->
+                <div class="right-panel">
+                    <div class="panel-header">
+                        <h3>Messages</h3>
+                    </div>
+                    <div class="message-composition">
+                        <textarea class="form-control" id="message-input" placeholder="Type your message..." rows="3"></textarea>
+                        <div class="message-options">
+                            <select class="form-control" id="message-type">
+                                <option value="normal">Normal</option>
+                                <option value="success">Success</option>
+                                <option value="warning">Warning</option>
+                                <option value="error">Error</option>
+                            </select>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="message-flash"> Flash Message
+                            </label>
+                        </div>
+                        <button class="btn btn--primary btn--full-width" id="send-message-btn">Send Message</button>
+                    </div>
+                    <div class="message-history" id="message-history">
+                        <!-- Message history will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Panel - Agenda -->
+            <div class="bottom-panel">
+                <div class="panel-header">
+                    <h3>Agenda</h3>
+                    <div class="agenda-actions">
+                        <input type="file" id="csv-import" accept=".csv" style="display: none;">
+                        <button class="btn btn--outline btn--sm" id="import-csv-btn">📄 Import CSV</button>
+                        <button class="btn btn--outline btn--sm" id="clear-agenda-btn">🗑️ Clear</button>
+                    </div>
+                </div>
+                <div class="agenda-list" id="agenda-list">
+                    <!-- Agenda items will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Viewer Interface -->
+    <div id="viewer-page" class="page">
+        <div class="viewer-layout">
+            <!-- Back to Controller Button -->
+            <button class="back-to-controller" id="back-to-controller-btn" title="Back to Controller">
+                ← Controller
+            </button>
+            
+            <div class="viewer-main">
+                <div class="viewer-timer-display" id="viewer-timer-display">
+                    <div class="viewer-timer-name" id="viewer-timer-name">Waiting for timer...</div>
+                    <div class="viewer-timer-time" id="viewer-timer-time">--:--</div>
+                </div>
+                <div class="viewer-message-overlay" id="viewer-message-overlay" style="display: none;">
+                    <div class="viewer-message-content" id="viewer-message-content"></div>
+                </div>
+            </div>
+            <div class="viewer-bottom-bar">
+                <div class="current-agenda-item" id="viewer-current-agenda">No agenda item</div>
+                <div class="agenda-progress" id="viewer-agenda-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="viewer-room-info">Room: <span id="viewer-room-id">ABC123XY</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Timer Modal -->
+    <div class="modal-overlay" id="add-timer-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Add New Timer</h3>
+                <button class="modal-close" id="close-add-timer-modal">×</button>
+            </div>
+            <div class="modal-body">
+                <form id="add-timer-form">
+                    <div class="form-group">
+                        <label class="form-label">Timer Name</label>
+                        <input type="text" class="form-control" id="timer-name-input" placeholder="e.g., Opening Presentation" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Duration</label>
+                        <input type="text" class="form-control" id="timer-duration-input" placeholder="e.g., 15:00 or 900" required>
+                        <small class="form-help">Enter time as MM:SS, H:MM:SS, or seconds</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Timer Type</label>
+                        <select class="form-control" id="timer-type-select">
+                            <option value="countdown">Countdown</option>
+                            <option value="countup">Count Up</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Warning Times (seconds)</label>
+                        <div class="warning-checkboxes">
+                            <label><input type="checkbox" value="180"> 3:00</label>
+                            <label><input type="checkbox" value="120" checked> 2:00</label>
+                            <label><input type="checkbox" value="60" checked> 1:00</label>
+                            <label><input type="checkbox" value="30" checked> 0:30</label>
+                            <label><input type="checkbox" value="10"> 0:10</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" id="cancel-add-timer">Cancel</button>
+                <button class="btn btn--primary" id="confirm-add-timer">Add Timer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal-overlay" id="settings-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Room Settings</h3>
+                <button class="modal-close" id="close-settings-modal">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Theme</label>
+                    <select class="form-control" id="theme-select">
+                        <option value="default">Default</option>
+                        <option value="dark">Dark</option>
+                        <option value="high-contrast">High Contrast</option>
+                        <option value="presentation">Presentation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="sounds-enabled" checked> Enable Sounds
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="auto-advance" checked> Auto-advance to next timer
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn--outline" id="cancel-settings">Cancel</button>
+                <button class="btn btn--primary" id="save-settings">Save Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
