@@ -194,7 +194,7 @@ pip install deepface --upgrade
 
 ## 🤝 Contributing
 
-This is Day 96 of a 100-day Python and AI challenge. The project demonstrates:
+This is Day 97 of a 100-day Python and AI challenge. The project demonstrates:
 - Computer vision with local ML
 - Data analysis and visualization
 - Privacy-first design
