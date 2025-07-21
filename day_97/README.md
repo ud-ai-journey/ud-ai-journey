@@ -4,6 +4,12 @@
 
 ---
 
+## 🎬 Demo Video
+
+[Watch the Energy Lens Demo on YouTube](https://www.youtube.com/watch?v=KRfbFFEb8VU)
+
+---
+
 ## 🚀 What's New in Day 97? (User-Driven Enhancements)
 
 Thanks to valuable feedback and suggestions from our users, we've made major improvements to Energy Lens to make it more intuitive, friendly, and ready for real-world use:
