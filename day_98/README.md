@@ -20,7 +20,7 @@ Energy Lens AI is now a true SaaS productivity tool, supporting multiple users, 
 
 ### 📸 **Smart Energy Detection**
 - **Camera/Upload Support:** Take photos or upload images for energy analysis
-- **Local ML Processing:** Uses DeepFace for offline emotion detection
+- **Local ML Processing:** Uses DeepFace for offline emotion detection from camera/upload
 - **Realistic Expectations:** Focuses on energy levels (High/Medium/Low) rather than precise emotions
 - **Fallback Analysis:** OpenCV-based detection when DeepFace fails
 
@@ -36,9 +36,9 @@ Energy Lens AI is now a true SaaS productivity tool, supporting multiple users, 
 - **Progress Tracking:** Visualize your energy journey
 
 ### 🔒 **Privacy-First**
-- **No External APIs:** Everything runs locally
-- **Local Database:** SQLite storage for your data
-- **Offline Processing:** No internet required for analysis
+- **No External APIs for Detection:** DeepFace runs locally for privacy
+- **Cloud Database:** Supabase storage for your data (multi-user, secure)
+- **Offline Processing:** No internet required for analysis (except for cloud sync)
 
 ## 🚀 Quick Start
 
@@ -46,7 +46,7 @@ Energy Lens AI is now a true SaaS productivity tool, supporting multiple users, 
 
 1. **Clone or navigate to the project directory**
 ```bash
-cd day_97
+cd day_98
 ```
 
 2. **Install dependencies**
@@ -65,10 +65,10 @@ Navigate to `http://localhost:8501`
 ## 📁 Project Structure
 
 ```
-day_97/
-├── energy_lens_app.py      # Main Streamlit application (Day 97 enhancements)
+day_98/
+├── energy_lens_app.py      # Main Streamlit application (Day 98 SaaS)
 ├── energy_detector.py      # DeepFace + energy classification
-├── data_manager.py         # SQLite database operations
+├── data_manager.py         # (Legacy) SQLite database operations
 ├── pattern_analyzer.py     # Energy pattern analysis
 ├── visualizations.py       # Charts and graphs
 ├── requirements.txt        # Python dependencies
@@ -79,7 +79,7 @@ day_97/
 
 ### 1. **Energy Detection**
 - Take a photo or upload an image
-- DeepFace analyzes facial expressions
+- DeepFace analyzes facial expressions locally
 - Maps emotions to energy levels (Happy/Surprise → High, Neutral → Medium, Sad/Angry/Fear → Low)
 - Provides confidence scores for accuracy
 
@@ -107,21 +107,21 @@ day_97/
 ### **Tech Stack**
 - **Frontend:** Streamlit (beautiful, interactive UI)
 - **Computer Vision:** DeepFace + OpenCV
-- **Data Storage:** SQLite (local, private)
+- **Data Storage:** Supabase (cloud, multi-user, secure)
 - **Visualization:** Plotly (interactive charts)
 - **Analysis:** Pandas + NumPy
 
 ### **Energy Detection Algorithm**
-1. **Primary:** DeepFace emotion detection
+1. **Primary:** DeepFace emotion detection (local)
 2. **Fallback:** OpenCV face/eye detection
 3. **Mapping:** Emotions → Energy levels
 4. **Confidence:** Realistic confidence scoring
 
 ### **Data Privacy**
-- All data stored locally in SQLite
-- No external API calls
-- No data sent to cloud services
-- Complete privacy and control
+- All data stored securely in Supabase (cloud, private to each user)
+- No external API calls for energy detection (DeepFace runs locally)
+- No data sent to third-party cloud services for analysis
+- Complete privacy and control for users and admins
 
 ## 🎯 Use Cases
 
@@ -187,7 +187,8 @@ pip install deepface --upgrade
 
 ## 🤝 Contributing
 
-This is Day 97 of a 100-day Python and AI challenge. The project demonstrates:
+This is Day 98 of a 100-day Python and AI challenge. The project demonstrates:
+- Multi-user SaaS with Supabase
 - Computer vision with local ML
 - Data analysis and visualization
 - Privacy-first design
